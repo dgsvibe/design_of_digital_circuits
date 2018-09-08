@@ -1,0 +1,33 @@
+|Mux2x1x6
+e0[0] => s_s.IN0
+e0[1] => s_s.IN0
+e0[2] => s_s.IN0
+e0[3] => s_s.IN0
+e0[4] => s_s.IN0
+e0[5] => s_s.IN0
+e1[0] => s_s.IN0
+e1[1] => s_s.IN0
+e1[2] => s_s.IN0
+e1[3] => s_s.IN0
+e1[4] => s_s.IN0
+e1[5] => s_s.IN0
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+s[0] << s_s.DB_MAX_OUTPUT_PORT_TYPE
+s[1] << s_s.DB_MAX_OUTPUT_PORT_TYPE
+s[2] << s_s.DB_MAX_OUTPUT_PORT_TYPE
+s[3] << s_s.DB_MAX_OUTPUT_PORT_TYPE
+s[4] << s_s.DB_MAX_OUTPUT_PORT_TYPE
+s[5] << s_s.DB_MAX_OUTPUT_PORT_TYPE
+
+

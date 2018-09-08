@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\User\Desktop\Sub1_behavioral\simulation\qsim
+vSub1_behavioral
+Z1 !s100 >K?PH1gHZNdWhZCij6CGd1
+Z2 InU4DG8fLo]c4Z>1LTHH4c2
+Z3 VmPD;S?eRb^cV^_Be6GJKi0
+Z4 dC:\Users\User\Desktop\Sub1_behavioral\simulation\qsim
+Z5 w1536368178
+Z6 8Sub1_behavioral.vo
+Z7 FSub1_behavioral.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Sub1_behavioral.vo|
+Z10 o-work work -O0
+Z11 n@sub1_behavioral
+!i10b 1
+!s85 0
+Z12 !s108 1536368180.009000
+Z13 !s107 Sub1_behavioral.vo|
+!s101 -O0
+vSub1_behavioral_vlg_check_tst
+!i10b 1
+Z14 !s100 `=>[kZ]58AGZ?8SR@[J813
+Z15 I?Ta@Tjmb@M674e<6TWa`>1
+Z16 V5QSLRl?FTG[MCU496>z?Y0
+R4
+Z17 w1536368176
+Z18 8Waveform.vwf.vt
+Z19 FWaveform.vwf.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z20 !s108 1536368180.665000
+Z21 !s107 Waveform.vwf.vt|
+Z22 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+Z23 n@sub1_behavioral_vlg_check_tst
+vSub1_behavioral_vlg_sample_tst
+!i10b 1
+Z24 !s100 a4i=1`fmFYCPVWDH[?Nj42
+Z25 I>4Da2>9J:YdMAfO:ZLdTV3
+Z26 V:J0G4O1hI17nkn?77HT=a2
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@sub1_behavioral_vlg_sample_tst
+vSub1_behavioral_vlg_vec_tst
+!i10b 1
+!s100 4z=zSiin_o79`a4WFLM`U0
+IEVQY8T;<B@I3X<Z9iUDzl1
+Z28 VBEZLLfLc>iY@cl8midJH>1
+R4
+R17
+R18
+R19
+Z29 L0 313
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@sub1_behavioral_vlg_vec_tst

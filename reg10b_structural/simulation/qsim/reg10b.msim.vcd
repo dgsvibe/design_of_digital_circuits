@@ -1,0 +1,233 @@
+$comment
+	File created using the following command:
+		vcd file reg10b.msim.vcd -direction
+$end
+$date
+	Thu Sep 06 15:34:25 2018
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module reg10b_vlg_vec_tst $end
+$var reg 1 ! ck $end
+$var reg 10 " d [9:0] $end
+$var reg 1 # rst $end
+$var wire 1 $ q [9] $end
+$var wire 1 % q [8] $end
+$var wire 1 & q [7] $end
+$var wire 1 ' q [6] $end
+$var wire 1 ( q [5] $end
+$var wire 1 ) q [4] $end
+$var wire 1 * q [3] $end
+$var wire 1 + q [2] $end
+$var wire 1 , q [1] $end
+$var wire 1 - q [0] $end
+$var wire 1 . sampler $end
+$scope module i1 $end
+$var wire 1 / gnd $end
+$var wire 1 0 vcc $end
+$var wire 1 1 unknown $end
+$var tri1 1 2 devclrn $end
+$var tri1 1 3 devpor $end
+$var tri1 1 4 devoe $end
+$var wire 1 5 q[0]~output_o $end
+$var wire 1 6 q[1]~output_o $end
+$var wire 1 7 q[2]~output_o $end
+$var wire 1 8 q[3]~output_o $end
+$var wire 1 9 q[4]~output_o $end
+$var wire 1 : q[5]~output_o $end
+$var wire 1 ; q[6]~output_o $end
+$var wire 1 < q[7]~output_o $end
+$var wire 1 = q[8]~output_o $end
+$var wire 1 > q[9]~output_o $end
+$var wire 1 ? ck~input_o $end
+$var wire 1 @ ck~inputclkctrl_outclk $end
+$var wire 1 A d[0]~input_o $end
+$var wire 1 B ff0|q~feeder_combout $end
+$var wire 1 C rst~input_o $end
+$var wire 1 D rst~inputclkctrl_outclk $end
+$var wire 1 E ff0|q~q $end
+$var wire 1 F d[1]~input_o $end
+$var wire 1 G ff1|q~q $end
+$var wire 1 H d[2]~input_o $end
+$var wire 1 I ff2|q~feeder_combout $end
+$var wire 1 J ff2|q~q $end
+$var wire 1 K d[3]~input_o $end
+$var wire 1 L ff3|q~feeder_combout $end
+$var wire 1 M ff3|q~q $end
+$var wire 1 N d[4]~input_o $end
+$var wire 1 O ff4|q~feeder_combout $end
+$var wire 1 P ff4|q~q $end
+$var wire 1 Q d[5]~input_o $end
+$var wire 1 R ff5|q~feeder_combout $end
+$var wire 1 S ff5|q~q $end
+$var wire 1 T d[6]~input_o $end
+$var wire 1 U ff6|q~feeder_combout $end
+$var wire 1 V ff6|q~q $end
+$var wire 1 W d[7]~input_o $end
+$var wire 1 X ff7|q~feeder_combout $end
+$var wire 1 Y ff7|q~q $end
+$var wire 1 Z d[8]~input_o $end
+$var wire 1 [ ff8|q~feeder_combout $end
+$var wire 1 \ ff8|q~q $end
+$var wire 1 ] d[9]~input_o $end
+$var wire 1 ^ ff9|q~feeder_combout $end
+$var wire 1 _ ff9|q~q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b110 "
+1#
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+x.
+0/
+10
+x1
+12
+13
+14
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+1C
+1D
+0E
+1F
+0G
+1H
+1I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+$end
+#20000
+1!
+1?
+1@
+0.
+1J
+1G
+17
+16
+1+
+1,
+#60000
+0!
+0?
+0@
+1.
+#100000
+b100110 "
+b101110 "
+b101010 "
+b101000 "
+0F
+0H
+1K
+1Q
+0.
+0I
+1L
+1R
+#200000
+1!
+1?
+1@
+1.
+1S
+1M
+0J
+0G
+1:
+18
+07
+06
+1(
+1*
+0+
+0,
+#230000
+0!
+0?
+0@
+0.
+#240000
+0#
+0C
+0D
+1.
+0S
+0M
+0:
+08
+0(
+0*
+#270000
+1#
+1C
+1D
+0.
+#310000
+b1000 "
+b0 "
+0K
+0Q
+1.
+0L
+0R
+#340000
+1!
+1?
+1@
+0.
+#360000
+0!
+0?
+0@
+1.
+#1000000

@@ -1,0 +1,43 @@
+|Mux2x1x10
+e0[0] => s[0].DATAB
+e0[1] => s[1].DATAB
+e0[2] => s[2].DATAB
+e0[3] => s[3].DATAB
+e0[4] => s[4].DATAB
+e0[5] => s[5].DATAB
+e0[6] => s[6].DATAB
+e0[7] => s[7].DATAB
+e0[8] => s[8].DATAB
+e0[9] => s[9].DATAB
+e1[0] => s[0].DATAA
+e1[1] => s[1].DATAA
+e1[2] => s[2].DATAA
+e1[3] => s[3].DATAA
+e1[4] => s[4].DATAA
+e1[5] => s[5].DATAA
+e1[6] => s[6].DATAA
+e1[7] => s[7].DATAA
+e1[8] => s[8].DATAA
+e1[9] => s[9].DATAA
+c => s[0].OUTPUTSELECT
+c => s[1].OUTPUTSELECT
+c => s[2].OUTPUTSELECT
+c => s[3].OUTPUTSELECT
+c => s[4].OUTPUTSELECT
+c => s[5].OUTPUTSELECT
+c => s[6].OUTPUTSELECT
+c => s[7].OUTPUTSELECT
+c => s[8].OUTPUTSELECT
+c => s[9].OUTPUTSELECT
+s[0] <= s[0].DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s[1].DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s[2].DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s[3].DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= s[4].DB_MAX_OUTPUT_PORT_TYPE
+s[5] <= s[5].DB_MAX_OUTPUT_PORT_TYPE
+s[6] <= s[6].DB_MAX_OUTPUT_PORT_TYPE
+s[7] <= s[7].DB_MAX_OUTPUT_PORT_TYPE
+s[8] <= s[8].DB_MAX_OUTPUT_PORT_TYPE
+s[9] <= s[9].DB_MAX_OUTPUT_PORT_TYPE
+
+

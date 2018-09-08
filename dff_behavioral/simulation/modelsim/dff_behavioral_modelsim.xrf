@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/User/Desktop/dff_behavioral/dff_behavioral.vhd
+source_file = 1, C:/Users/User/Desktop/dff_behavioral/db/dff_behavioral.cbx.xml
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = dff_behavioral
+instance = comp, \Q~output\, Q~output, dff_behavioral, 1
+instance = comp, \CLK~input\, CLK~input, dff_behavioral, 1
+instance = comp, \D~input\, D~input, dff_behavioral, 1
+instance = comp, \Q~reg0feeder\, Q~reg0feeder, dff_behavioral, 1
+instance = comp, \Q~reg0\, Q~reg0, dff_behavioral, 1

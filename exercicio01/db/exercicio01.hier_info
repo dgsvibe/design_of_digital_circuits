@@ -1,0 +1,437 @@
+|exercicio01
+s9 <= j[9].DB_MAX_OUTPUT_PORT_TYPE
+rst => reg10b:inst4.rst
+ck => reg10b:inst4.ck
+c9 => Mux2x1x10:inst2.e1[9]
+c0 => Mux2x1x10:inst2.e1[0]
+c1 => Mux2x1x10:inst2.e1[1]
+c2 => Mux2x1x10:inst2.e1[2]
+c3 => Mux2x1x10:inst2.e1[3]
+c4 => Mux2x1x10:inst2.e1[4]
+c5 => Mux2x1x10:inst2.e1[5]
+c6 => Mux2x1x10:inst2.e1[6]
+c7 => Mux2x1x10:inst2.e1[7]
+c8 => Mux2x1x10:inst2.e1[8]
+s8 <= j[8].DB_MAX_OUTPUT_PORT_TYPE
+s7 <= j[7].DB_MAX_OUTPUT_PORT_TYPE
+s6 <= j[6].DB_MAX_OUTPUT_PORT_TYPE
+s5 <= j[5].DB_MAX_OUTPUT_PORT_TYPE
+s4 <= j[4].DB_MAX_OUTPUT_PORT_TYPE
+s3 <= j[3].DB_MAX_OUTPUT_PORT_TYPE
+s2 <= j[2].DB_MAX_OUTPUT_PORT_TYPE
+s1 <= j[1].DB_MAX_OUTPUT_PORT_TYPE
+s0 <= j[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|reg10b:inst4
+rst => dff_behavioral:ff9.rst
+rst => dff_behavioral:ff8.rst
+rst => dff_behavioral:ff7.rst
+rst => dff_behavioral:ff6.rst
+rst => dff_behavioral:ff5.rst
+rst => dff_behavioral:ff4.rst
+rst => dff_behavioral:ff3.rst
+rst => dff_behavioral:ff2.rst
+rst => dff_behavioral:ff1.rst
+rst => dff_behavioral:ff0.rst
+ck => dff_behavioral:ff9.ck
+ck => dff_behavioral:ff8.ck
+ck => dff_behavioral:ff7.ck
+ck => dff_behavioral:ff6.ck
+ck => dff_behavioral:ff5.ck
+ck => dff_behavioral:ff4.ck
+ck => dff_behavioral:ff3.ck
+ck => dff_behavioral:ff2.ck
+ck => dff_behavioral:ff1.ck
+ck => dff_behavioral:ff0.ck
+d[0] => dff_behavioral:ff0.d
+d[1] => dff_behavioral:ff1.d
+d[2] => dff_behavioral:ff2.d
+d[3] => dff_behavioral:ff3.d
+d[4] => dff_behavioral:ff4.d
+d[5] => dff_behavioral:ff5.d
+d[6] => dff_behavioral:ff6.d
+d[7] => dff_behavioral:ff7.d
+d[8] => dff_behavioral:ff8.d
+d[9] => dff_behavioral:ff9.d
+q[0] <= dff_behavioral:ff0.q
+q[1] <= dff_behavioral:ff1.q
+q[2] <= dff_behavioral:ff2.q
+q[3] <= dff_behavioral:ff3.q
+q[4] <= dff_behavioral:ff4.q
+q[5] <= dff_behavioral:ff5.q
+q[6] <= dff_behavioral:ff6.q
+q[7] <= dff_behavioral:ff7.q
+q[8] <= dff_behavioral:ff8.q
+q[9] <= dff_behavioral:ff9.q
+
+
+|exercicio01|reg10b:inst4|dff_behavioral:ff9
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|reg10b:inst4|dff_behavioral:ff8
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|reg10b:inst4|dff_behavioral:ff7
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|reg10b:inst4|dff_behavioral:ff6
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|reg10b:inst4|dff_behavioral:ff5
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|reg10b:inst4|dff_behavioral:ff4
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|reg10b:inst4|dff_behavioral:ff3
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|reg10b:inst4|dff_behavioral:ff2
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|reg10b:inst4|dff_behavioral:ff1
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|reg10b:inst4|dff_behavioral:ff0
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|Mux2x1x10:inst2
+e0[0] => s_s.IN0
+e0[1] => s_s.IN0
+e0[2] => s_s.IN0
+e0[3] => s_s.IN0
+e0[4] => s_s.IN0
+e0[5] => s_s.IN0
+e0[6] => s_s.IN0
+e0[7] => s_s.IN0
+e0[8] => s_s.IN0
+e0[9] => s_s.IN0
+e1[0] => s_s.IN0
+e1[1] => s_s.IN0
+e1[2] => s_s.IN0
+e1[3] => s_s.IN0
+e1[4] => s_s.IN0
+e1[5] => s_s.IN0
+e1[6] => s_s.IN0
+e1[7] => s_s.IN0
+e1[8] => s_s.IN0
+e1[9] => s_s.IN0
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+c => s_s.IN1
+s[0] <= s_s.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s_s.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s_s.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s_s.DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= s_s.DB_MAX_OUTPUT_PORT_TYPE
+s[5] <= s_s.DB_MAX_OUTPUT_PORT_TYPE
+s[6] <= s_s.DB_MAX_OUTPUT_PORT_TYPE
+s[7] <= s_s.DB_MAX_OUTPUT_PORT_TYPE
+s[8] <= s_s.DB_MAX_OUTPUT_PORT_TYPE
+s[9] <= s_s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|Sub1_structural:inst17
+E[0] => sum10b:sum.m[0]
+E[1] => sum10b:sum.m[1]
+E[2] => sum10b:sum.m[2]
+E[3] => sum10b:sum.m[3]
+E[4] => sum10b:sum.m[4]
+E[5] => sum10b:sum.m[5]
+E[6] => sum10b:sum.m[6]
+E[7] => sum10b:sum.m[7]
+E[8] => sum10b:sum.m[8]
+E[9] => sum10b:sum.m[9]
+S[0] <= sum10b:sum.s[0]
+S[1] <= sum10b:sum.s[1]
+S[2] <= sum10b:sum.s[2]
+S[3] <= sum10b:sum.s[3]
+S[4] <= sum10b:sum.s[4]
+S[5] <= sum10b:sum.s[5]
+S[6] <= sum10b:sum.s[6]
+S[7] <= sum10b:sum.s[7]
+S[8] <= sum10b:sum.s[8]
+S[9] <= sum10b:sum.s[9]
+
+
+|exercicio01|Sub1_structural:inst17|sum10b:sum
+m[0] => half_adder:ha_0.x
+m[1] => full_adder:fa_1.x
+m[2] => full_adder:fa_2.x
+m[3] => full_adder:fa_3.x
+m[4] => full_adder:fa_4.x
+m[5] => full_adder:fa_5.x
+m[6] => full_adder:fa_6.x
+m[7] => full_adder:fa_7.x
+m[8] => full_adder:fa_8.x
+m[9] => full_adder:fa_9.x
+n[0] => half_adder:ha_0.y
+n[1] => full_adder:fa_1.y
+n[2] => full_adder:fa_2.y
+n[3] => full_adder:fa_3.y
+n[4] => full_adder:fa_4.y
+n[5] => full_adder:fa_5.y
+n[6] => full_adder:fa_6.y
+n[7] => full_adder:fa_7.y
+n[8] => full_adder:fa_8.y
+n[9] => full_adder:fa_9.y
+s[0] <= half_adder:ha_0.sum
+s[1] <= full_adder:fa_1.sum
+s[2] <= full_adder:fa_2.sum
+s[3] <= full_adder:fa_3.sum
+s[4] <= full_adder:fa_4.sum
+s[5] <= full_adder:fa_5.sum
+s[6] <= full_adder:fa_6.sum
+s[7] <= full_adder:fa_7.sum
+s[8] <= full_adder:fa_8.sum
+s[9] <= full_adder:fa_9.sum
+s[10] <= full_adder:fa_9.cout
+
+
+|exercicio01|Sub1_structural:inst17|sum10b:sum|half_adder:ha_0
+x => sum.IN0
+x => cout.IN0
+y => sum.IN1
+y => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|Sub1_structural:inst17|sum10b:sum|full_adder:fa_1
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+cin => s_cout.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+sum <= s_sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= s_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|Sub1_structural:inst17|sum10b:sum|full_adder:fa_2
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+cin => s_cout.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+sum <= s_sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= s_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|Sub1_structural:inst17|sum10b:sum|full_adder:fa_3
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+cin => s_cout.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+sum <= s_sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= s_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|Sub1_structural:inst17|sum10b:sum|full_adder:fa_4
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+cin => s_cout.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+sum <= s_sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= s_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|Sub1_structural:inst17|sum10b:sum|full_adder:fa_5
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+cin => s_cout.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+sum <= s_sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= s_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|Sub1_structural:inst17|sum10b:sum|full_adder:fa_6
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+cin => s_cout.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+sum <= s_sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= s_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|Sub1_structural:inst17|sum10b:sum|full_adder:fa_7
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+cin => s_cout.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+sum <= s_sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= s_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|Sub1_structural:inst17|sum10b:sum|full_adder:fa_8
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+cin => s_cout.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+sum <= s_sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= s_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|Sub1_structural:inst17|sum10b:sum|full_adder:fa_9
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+cin => s_cout.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+sum <= s_sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= s_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

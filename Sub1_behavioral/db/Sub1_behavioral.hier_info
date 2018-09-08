@@ -1,0 +1,23 @@
+|Sub1_behavioral
+e[0] => Add0.IN20
+e[1] => Add0.IN19
+e[2] => Add0.IN18
+e[3] => Add0.IN17
+e[4] => Add0.IN16
+e[5] => Add0.IN15
+e[6] => Add0.IN14
+e[7] => Add0.IN13
+e[8] => Add0.IN12
+e[9] => Add0.IN11
+s[0] << Add0.DB_MAX_OUTPUT_PORT_TYPE
+s[1] << Add0.DB_MAX_OUTPUT_PORT_TYPE
+s[2] << Add0.DB_MAX_OUTPUT_PORT_TYPE
+s[3] << Add0.DB_MAX_OUTPUT_PORT_TYPE
+s[4] << Add0.DB_MAX_OUTPUT_PORT_TYPE
+s[5] << Add0.DB_MAX_OUTPUT_PORT_TYPE
+s[6] << Add0.DB_MAX_OUTPUT_PORT_TYPE
+s[7] << Add0.DB_MAX_OUTPUT_PORT_TYPE
+s[8] << Add0.DB_MAX_OUTPUT_PORT_TYPE
+s[9] << Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+

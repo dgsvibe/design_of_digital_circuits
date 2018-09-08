@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\User\Desktop\Mux2x1x10_behavioral\simulation\qsim
+vMux2x1x10
+Z1 Ic[nXoh1QYUzJUflVgX0bY3
+Z2 VI1OITckH`>fDhW@Z2Z`K71
+Z3 dC:\Users\User\Desktop\Mux2x1x10_behavioral\simulation\qsim
+Z4 w1536258329
+Z5 8Mux2x1x10.vo
+Z6 FMux2x1x10.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@mux2x1x10
+!i10b 1
+Z10 !s100 REfnZMjlK;Cj8cKX7@;C]1
+!s85 0
+Z11 !s108 1536258330.813000
+Z12 !s107 Mux2x1x10.vo|
+Z13 !s90 -work|work|Mux2x1x10.vo|
+!s101 -O0
+vMux2x1x10_vlg_check_tst
+!i10b 1
+!s100 lYD4_D6an8HAbd=H8Nc;K1
+I63^=aA8Q@@4EeFj_XYTVN0
+VDRa^[8VC>zKfZM3AikJ183
+R3
+Z14 w1536258327
+Z15 8Waveform.vwf.vt
+Z16 FWaveform.vwf.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z17 !s108 1536258331.110000
+Z18 !s107 Waveform.vwf.vt|
+Z19 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+n@mux2x1x10_vlg_check_tst
+vMux2x1x10_vlg_sample_tst
+!i10b 1
+!s100 nFDn?h<H7f8O0bXJo`LAY1
+IH6`U__S6XnZF?FF8]H2Ia2
+V8HPRgLP8b40<O^c=ncM:70
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@mux2x1x10_vlg_sample_tst
+vMux2x1x10_vlg_vec_tst
+!i10b 1
+!s100 2C`Gm@Ze]:2eeLIQgB<WS2
+Iz4jROUUT6<[SbocgO]<3l0
+VaS_RW8FZKBU6_fU6cn3G21
+R3
+R14
+R15
+R16
+L0 317
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@mux2x1x10_vlg_vec_tst

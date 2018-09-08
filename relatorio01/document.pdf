@@ -1,0 +1,23 @@
+\documentclass[12pt,a4paper]{article}
+
+%
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazilian]{babel}
+\usepackage{mathpazo}
+\usepackage[top=3cm,left=3cm,bottom=2cm,right=2cm]{geometry}
+\usepackage{graphicx}
+
+%
+
+\begin{document}
+\thispagestyle{empty}
+%---------------------- capa ---------------------
+\begin{figure}
+	\includegraphics[width=2cm,height=2cm]{if.jpg}
+\end{figure}
+\end{document}

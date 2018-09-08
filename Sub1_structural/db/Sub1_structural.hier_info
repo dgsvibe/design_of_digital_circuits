@@ -1,0 +1,246 @@
+|Sub1_structural
+E[0] => sum10b:sum.m[0]
+E[1] => sum10b:sum.m[1]
+E[2] => sum10b:sum.m[2]
+E[3] => sum10b:sum.m[3]
+E[4] => sum10b:sum.m[4]
+E[5] => sum10b:sum.m[5]
+E[6] => sum10b:sum.m[6]
+E[7] => sum10b:sum.m[7]
+E[8] => sum10b:sum.m[8]
+E[9] => sum10b:sum.m[9]
+S[0] << sum10b:sum.s[0]
+S[1] << sum10b:sum.s[1]
+S[2] << sum10b:sum.s[2]
+S[3] << sum10b:sum.s[3]
+S[4] << sum10b:sum.s[4]
+S[5] << sum10b:sum.s[5]
+S[6] << sum10b:sum.s[6]
+S[7] << sum10b:sum.s[7]
+S[8] << sum10b:sum.s[8]
+S[9] << sum10b:sum.s[9]
+
+
+|Sub1_structural|sum10b:sum
+m[0] => half_adder:ha_0.x
+m[1] => full_adder:fa_1.x
+m[2] => full_adder:fa_2.x
+m[3] => full_adder:fa_3.x
+m[4] => full_adder:fa_4.x
+m[5] => full_adder:fa_5.x
+m[6] => full_adder:fa_6.x
+m[7] => full_adder:fa_7.x
+m[8] => full_adder:fa_8.x
+m[9] => full_adder:fa_9.x
+n[0] => half_adder:ha_0.y
+n[1] => full_adder:fa_1.y
+n[2] => full_adder:fa_2.y
+n[3] => full_adder:fa_3.y
+n[4] => full_adder:fa_4.y
+n[5] => full_adder:fa_5.y
+n[6] => full_adder:fa_6.y
+n[7] => full_adder:fa_7.y
+n[8] => full_adder:fa_8.y
+n[9] => full_adder:fa_9.y
+s[0] <= half_adder:ha_0.sum
+s[1] <= full_adder:fa_1.sum
+s[2] <= full_adder:fa_2.sum
+s[3] <= full_adder:fa_3.sum
+s[4] <= full_adder:fa_4.sum
+s[5] <= full_adder:fa_5.sum
+s[6] <= full_adder:fa_6.sum
+s[7] <= full_adder:fa_7.sum
+s[8] <= full_adder:fa_8.sum
+s[9] <= full_adder:fa_9.sum
+s[10] <= full_adder:fa_9.cout
+
+
+|Sub1_structural|sum10b:sum|half_adder:ha_0
+x => sum.IN0
+x => cout.IN0
+y => sum.IN1
+y => cout.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sub1_structural|sum10b:sum|full_adder:fa_1
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+cin => s_cout.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+sum <= s_sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= s_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sub1_structural|sum10b:sum|full_adder:fa_2
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+cin => s_cout.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+sum <= s_sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= s_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sub1_structural|sum10b:sum|full_adder:fa_3
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+cin => s_cout.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+sum <= s_sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= s_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sub1_structural|sum10b:sum|full_adder:fa_4
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+cin => s_cout.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+sum <= s_sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= s_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sub1_structural|sum10b:sum|full_adder:fa_5
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+cin => s_cout.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+sum <= s_sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= s_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sub1_structural|sum10b:sum|full_adder:fa_6
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+cin => s_cout.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+sum <= s_sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= s_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sub1_structural|sum10b:sum|full_adder:fa_7
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+cin => s_cout.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+sum <= s_sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= s_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sub1_structural|sum10b:sum|full_adder:fa_8
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+cin => s_cout.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+sum <= s_sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= s_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Sub1_structural|sum10b:sum|full_adder:fa_9
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+x => s_sum.IN0
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+y => s_sum.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+cin => s_cout.IN1
+cin => s_sum.IN1
+cin => s_sum.IN1
+cin => s_cout.IN1
+sum <= s_sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= s_cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

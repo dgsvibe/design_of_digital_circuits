@@ -1,0 +1,113 @@
+|reg10b
+rst => dff_behavioral:ff9.rst
+rst => dff_behavioral:ff8.rst
+rst => dff_behavioral:ff7.rst
+rst => dff_behavioral:ff6.rst
+rst => dff_behavioral:ff5.rst
+rst => dff_behavioral:ff4.rst
+rst => dff_behavioral:ff3.rst
+rst => dff_behavioral:ff2.rst
+rst => dff_behavioral:ff1.rst
+rst => dff_behavioral:ff0.rst
+ck => dff_behavioral:ff9.ck
+ck => dff_behavioral:ff8.ck
+ck => dff_behavioral:ff7.ck
+ck => dff_behavioral:ff6.ck
+ck => dff_behavioral:ff5.ck
+ck => dff_behavioral:ff4.ck
+ck => dff_behavioral:ff3.ck
+ck => dff_behavioral:ff2.ck
+ck => dff_behavioral:ff1.ck
+ck => dff_behavioral:ff0.ck
+d[0] => dff_behavioral:ff0.d
+d[1] => dff_behavioral:ff1.d
+d[2] => dff_behavioral:ff2.d
+d[3] => dff_behavioral:ff3.d
+d[4] => dff_behavioral:ff4.d
+d[5] => dff_behavioral:ff5.d
+d[6] => dff_behavioral:ff6.d
+d[7] => dff_behavioral:ff7.d
+d[8] => dff_behavioral:ff8.d
+d[9] => dff_behavioral:ff9.d
+q[0] <= dff_behavioral:ff0.q
+q[1] <= dff_behavioral:ff1.q
+q[2] <= dff_behavioral:ff2.q
+q[3] <= dff_behavioral:ff3.q
+q[4] <= dff_behavioral:ff4.q
+q[5] <= dff_behavioral:ff5.q
+q[6] <= dff_behavioral:ff6.q
+q[7] <= dff_behavioral:ff7.q
+q[8] <= dff_behavioral:ff8.q
+q[9] <= dff_behavioral:ff9.q
+
+
+|reg10b|dff_behavioral:ff9
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg10b|dff_behavioral:ff8
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg10b|dff_behavioral:ff7
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg10b|dff_behavioral:ff6
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg10b|dff_behavioral:ff5
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg10b|dff_behavioral:ff4
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg10b|dff_behavioral:ff3
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg10b|dff_behavioral:ff2
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg10b|dff_behavioral:ff1
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|reg10b|dff_behavioral:ff0
+rst => q~reg0.ACLR
+ck => q~reg0.CLK
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

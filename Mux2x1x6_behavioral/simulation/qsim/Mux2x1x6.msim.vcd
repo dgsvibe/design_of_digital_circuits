@@ -1,0 +1,218 @@
+$comment
+	File created using the following command:
+		vcd file Mux2x1x6.msim.vcd -direction
+$end
+$date
+	Thu Sep 06 09:08:05 2018
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Mux2x1x6_vlg_vec_tst $end
+$var reg 1 ! c $end
+$var reg 6 " e0 [5:0] $end
+$var reg 6 # e1 [5:0] $end
+$var wire 1 $ s [5] $end
+$var wire 1 % s [4] $end
+$var wire 1 & s [3] $end
+$var wire 1 ' s [2] $end
+$var wire 1 ( s [1] $end
+$var wire 1 ) s [0] $end
+$var wire 1 * sampler $end
+$scope module i1 $end
+$var wire 1 + gnd $end
+$var wire 1 , vcc $end
+$var wire 1 - unknown $end
+$var tri1 1 . devclrn $end
+$var tri1 1 / devpor $end
+$var tri1 1 0 devoe $end
+$var wire 1 1 s[0]~output_o $end
+$var wire 1 2 s[1]~output_o $end
+$var wire 1 3 s[2]~output_o $end
+$var wire 1 4 s[3]~output_o $end
+$var wire 1 5 s[4]~output_o $end
+$var wire 1 6 s[5]~output_o $end
+$var wire 1 7 c~input_o $end
+$var wire 1 8 e1[0]~input_o $end
+$var wire 1 9 e0[0]~input_o $end
+$var wire 1 : s[0]~0_combout $end
+$var wire 1 ; e1[1]~input_o $end
+$var wire 1 < e0[1]~input_o $end
+$var wire 1 = s[1]~1_combout $end
+$var wire 1 > e1[2]~input_o $end
+$var wire 1 ? e0[2]~input_o $end
+$var wire 1 @ s[2]~2_combout $end
+$var wire 1 A e1[3]~input_o $end
+$var wire 1 B e0[3]~input_o $end
+$var wire 1 C s[3]~3_combout $end
+$var wire 1 D e0[4]~input_o $end
+$var wire 1 E e1[4]~input_o $end
+$var wire 1 F s[4]~4_combout $end
+$var wire 1 G e1[5]~input_o $end
+$var wire 1 H e0[5]~input_o $end
+$var wire 1 I s[5]~5_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+b10100 "
+b11110 #
+0)
+1(
+1'
+1&
+1%
+0$
+x*
+0+
+1,
+x-
+1.
+1/
+10
+01
+12
+13
+14
+15
+06
+17
+08
+09
+0:
+1;
+0<
+1=
+1>
+1?
+1@
+1A
+0B
+1C
+1D
+1E
+1F
+0G
+0H
+0I
+$end
+#80000
+0!
+07
+0*
+0C
+0=
+04
+02
+0&
+0(
+#160000
+1!
+17
+1*
+1C
+1=
+14
+12
+1&
+1(
+#250000
+0!
+07
+0*
+0C
+0=
+04
+02
+0&
+0(
+#330000
+1!
+17
+1*
+1C
+1=
+14
+12
+1&
+1(
+#400000
+0!
+07
+0*
+0C
+0=
+04
+02
+0&
+0(
+#460000
+1!
+17
+1*
+1C
+1=
+14
+12
+1&
+1(
+#490000
+0!
+07
+0*
+0C
+0=
+04
+02
+0&
+0(
+#500000
+bz10100 "
+bz0100 "
+bz100 "
+bz00 "
+bz0 "
+bz "
+bz11110 #
+bz1110 #
+bz110 #
+bz10 #
+bz0 #
+bz #
+z8
+z;
+z>
+zA
+zE
+zG
+z9
+z<
+z?
+zB
+zD
+zH
+1*
+x:
+x=
+x@
+xC
+xF
+xI
+x1
+x2
+x3
+x4
+x5
+x6
+x)
+x(
+x'
+x&
+x%
+x$
+#1000000
