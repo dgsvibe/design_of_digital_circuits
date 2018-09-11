@@ -7,8 +7,8 @@ vexercicio01
 Z1 !s100 ;jZ8;33b>ZWQAP^_6f71C0
 Z2 I]5El_zMT78H4__d39Mel93
 Z3 VGKSKTYJN;]1IXI=M?f5FS3
-Z4 dC:\Users\User\Desktop\exercicio01\simulation\qsim
-Z5 w1536267444
+Z4 dC:\Users\User\Desktop\design_of_digital_circuits\exercicio01\simulation\qsim
+Z5 w1536423849
 Z6 8exercicio01.vo
 Z7 Fexercicio01.vo
 L0 31
@@ -19,7 +19,7 @@ Z9 !s90 -work|work|exercicio01.vo|
 Z10 o-work work -O0
 !i10b 1
 !s85 0
-Z11 !s108 1536267446.846000
+Z11 !s108 1536423851.416000
 Z12 !s107 exercicio01.vo|
 !s101 -O0
 vexercicio01_vlg_check_tst
@@ -28,7 +28,7 @@ Z13 !s100 >jSDfkI;k5I_z>GmN2I8l2
 Z14 In29YmnT6O:08PA`mb4Vbk2
 Z15 V:]dVR<h3kF@hIKHSbQf7c2
 R4
-Z16 w1536267441
+Z16 w1536423847
 Z17 8Waveform.vwf.vt
 Z18 FWaveform.vwf.vt
 L0 79
@@ -36,7 +36,7 @@ R8
 r1
 !s85 0
 31
-Z19 !s108 1536267447.050000
+Z19 !s108 1536423851.626000
 Z20 !s107 Waveform.vwf.vt|
 Z21 !s90 -work|work|Waveform.vwf.vt|
 !s101 -O0
@@ -62,14 +62,14 @@ R21
 R10
 vexercicio01_vlg_vec_tst
 !i10b 1
-!s100 TEA`?OmKkog;jZEZNYIjj3
-I;Y25EHj=;oRY^KZ6HgX3R3
-Z25 V:inVL<iQ8DM6SQbZeb`=V0
+Z25 !s100 TEA`?OmKkog;jZEZNYIjj3
+Z26 I;Y25EHj=;oRY^KZ6HgX3R3
+Z27 V:inVL<iQ8DM6SQbZeb`=V0
 R4
 R16
 R17
 R18
-Z26 L0 417
+Z28 L0 417
 R8
 r1
 !s85 0
