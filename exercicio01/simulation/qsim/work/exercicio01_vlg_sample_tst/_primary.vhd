@@ -12,8 +12,8 @@ entity exercicio01_vlg_sample_tst is
         c7              : in     vl_logic;
         c8              : in     vl_logic;
         c9              : in     vl_logic;
-        ck              : in     vl_logic;
         rst             : in     vl_logic;
+        \signal\        : in     vl_logic;
         sampler_tx      : out    vl_logic
     );
 end exercicio01_vlg_sample_tst;

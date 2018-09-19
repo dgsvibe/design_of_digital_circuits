@@ -4,7 +4,7 @@ entity exercicio01 is
     port(
         s9              : out    vl_logic;
         rst             : in     vl_logic;
-        ck              : in     vl_logic;
+        \signal\        : in     vl_logic;
         c9              : in     vl_logic;
         c0              : in     vl_logic;
         c1              : in     vl_logic;
@@ -23,6 +23,8 @@ entity exercicio01 is
         s3              : out    vl_logic;
         s2              : out    vl_logic;
         s1              : out    vl_logic;
-        s0              : out    vl_logic
+        s0              : out    vl_logic;
+        sginal_nor      : out    vl_logic;
+        signal_T        : out    vl_logic
     );
 end exercicio01;
