@@ -1,0 +1,78 @@
+$comment
+	File created using the following command:
+		vcd file pnand.msim.vcd -direction
+$end
+$date
+	Thu Sep 20 12:00:35 2018
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module pnand_vlg_vec_tst $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var wire 1 # s $end
+$var wire 1 $ sampler $end
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var tri1 1 ( devclrn $end
+$var tri1 1 ) devpor $end
+$var tri1 1 * devoe $end
+$var wire 1 + s~output_o $end
+$var wire 1 , b~input_o $end
+$var wire 1 - a~input_o $end
+$var wire 1 . s~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+1#
+x$
+0%
+1&
+x'
+1(
+1)
+1*
+1+
+0,
+1-
+0.
+$end
+#70000
+0!
+1"
+0-
+1,
+0$
+#180000
+0"
+0,
+1$
+#270000
+1!
+1"
+1-
+1,
+0$
+1.
+0+
+0#
+#330000
+0!
+0"
+0-
+0,
+1$
+0.
+1+
+1#
+#1000000

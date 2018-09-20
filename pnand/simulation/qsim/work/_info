@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\User\Desktop\design_of_digital_circuits\pnand\simulation\qsim
+vpnand
+Z1 IjHG@cX>XM_cVbk44VQ<X[0
+Z2 V8Y5jHUTR_P^B>c8emeWci3
+Z3 dC:\Users\User\Desktop\design_of_digital_circuits\pnand\simulation\qsim
+Z4 w1537455632
+Z5 8pnand.vo
+Z6 Fpnand.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 Yh6icQG0E<<oMH>zlnY[d3
+!s85 0
+Z10 !s108 1537455634.253000
+Z11 !s107 pnand.vo|
+Z12 !s90 -work|work|pnand.vo|
+!s101 -O0
+vpnand_vlg_check_tst
+!i10b 1
+!s100 YGR]z?1gdBlh58^gHXT[@2
+IXE@_=2^:@f[oHII7XMZRI3
+V`5SOD6?fJonCGcdoRjlBl1
+R3
+Z13 w1537455630
+Z14 8Waveform.vwf.vt
+Z15 FWaveform.vwf.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z16 !s108 1537455634.445000
+Z17 !s107 Waveform.vwf.vt|
+Z18 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+vpnand_vlg_sample_tst
+!i10b 1
+!s100 zgaLSlmRg`cMcSaP9K7MY3
+ID1eXi@A^3DconIKIo;c2]2
+VE;a^94dF_g0kIcVmckcOY0
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vpnand_vlg_vec_tst
+!i10b 1
+!s100 12oRZjL@>M4EBcHkz0=[H2
+ID[n=Wbh6M4a:RUNic0ok33
+Vazmgd?dXAn:ECJXl2QChX0
+R3
+R13
+R14
+R15
+L0 154
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

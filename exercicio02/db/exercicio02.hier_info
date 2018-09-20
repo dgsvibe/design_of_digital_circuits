@@ -1,0 +1,15 @@
+|exercicio02
+enter => s[0]$latch.LATCH_ENABLE
+enter => s[1]$latch.LATCH_ENABLE
+enter => s[2]$latch.LATCH_ENABLE
+enter => s[3]$latch.LATCH_ENABLE
+data[0] => s[0]$latch.DATAIN
+data[1] => s[1]$latch.DATAIN
+data[2] => s[2]$latch.DATAIN
+data[3] => s[3]$latch.DATAIN
+s[0] <= s[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

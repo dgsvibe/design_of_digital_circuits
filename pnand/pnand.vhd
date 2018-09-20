@@ -1,0 +1,12 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY pnand IS
+PORT(	a, b: IN STD_LOGIC;
+		s: OUT STD_LOGIC);
+END pnand;
+
+ARCHITECTURE arch OF pnand IS
+BEGIN
+s<=(a NAND b);
+END arch;

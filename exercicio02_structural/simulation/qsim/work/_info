@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\User\Desktop\design_of_digital_circuits\exercicio02\simulation\qsim
+vexercicio02
+Z1 !s100 CU10CWA]Pn?QQ<z1[fDRk1
+Z2 IRDE0m@kV6W]cLB1eg;i0J1
+Z3 V4dImaTEF[o<G?UWjfY<3Q0
+Z4 dC:\Users\User\Desktop\design_of_digital_circuits\exercicio02_structural\simulation\qsim
+Z5 w1537471450
+Z6 8exercicio02.vo
+Z7 Fexercicio02.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|exercicio02.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1537471451.864000
+Z12 !s107 exercicio02.vo|
+!s101 -O0
+vexercicio02_vlg_check_tst
+!i10b 1
+!s100 FejdR72G8A]23Ua@EVCh:3
+IYF^CDmz@DS9RKWA=Sd?Qm1
+Z13 V;I0oLVi=1m]FNh>hdeHOC0
+R4
+Z14 w1537471447
+Z15 8Waveform.vwf.vt
+Z16 FWaveform.vwf.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z17 !s108 1537471452.523000
+Z18 !s107 Waveform.vwf.vt|
+Z19 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+vexercicio02_vlg_sample_tst
+!i10b 1
+!s100 N1WdeD==IiQj]=`OQR<1g2
+IF5fd0B9a@FFi2@_jCf;VM1
+Z20 Vz8SlH[aHon=i9;R8m4GR33
+R4
+R14
+R15
+R16
+L0 29
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10
+vexercicio02_vlg_vec_tst
+!i10b 1
+!s100 [bXML:5FeN_5@dY8SIgeX2
+I?iI==m4L7fh3o1R8^9_ZY0
+Z21 Vjz>K^_?:AUOJnlQBf?48Y2
+R4
+R14
+R15
+R16
+Z22 L0 207
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R10

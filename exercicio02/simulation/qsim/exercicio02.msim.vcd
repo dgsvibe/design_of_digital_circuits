@@ -1,0 +1,186 @@
+$comment
+	File created using the following command:
+		vcd file exercicio02.msim.vcd -direction
+$end
+$date
+	Thu Sep 20 16:09:42 2018
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module exercicio02_vlg_vec_tst $end
+$var reg 4 ! data [3:0] $end
+$var reg 1 " enter $end
+$var wire 1 # s [3] $end
+$var wire 1 $ s [2] $end
+$var wire 1 % s [1] $end
+$var wire 1 & s [0] $end
+$var wire 1 ' sampler $end
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var tri1 1 + devclrn $end
+$var tri1 1 , devpor $end
+$var tri1 1 - devoe $end
+$var wire 1 . s[0]~output_o $end
+$var wire 1 / s[1]~output_o $end
+$var wire 1 0 s[2]~output_o $end
+$var wire 1 1 s[3]~output_o $end
+$var wire 1 2 data[0]~input_o $end
+$var wire 1 3 enter~input_o $end
+$var wire 1 4 enter~inputclkctrl_outclk $end
+$var wire 1 5 s[0]$latch~combout $end
+$var wire 1 6 data[1]~input_o $end
+$var wire 1 7 s[1]$latch~combout $end
+$var wire 1 8 data[2]~input_o $end
+$var wire 1 9 s[2]$latch~combout $end
+$var wire 1 : data[3]~input_o $end
+$var wire 1 ; s[3]$latch~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 !
+0"
+x&
+x%
+x$
+x#
+x'
+0(
+1)
+x*
+1+
+1,
+1-
+x.
+x/
+x0
+x1
+12
+03
+04
+x5
+06
+x7
+08
+x9
+0:
+x;
+$end
+#90000
+1"
+13
+14
+0'
+0;
+09
+07
+15
+01
+00
+0/
+1.
+0#
+0$
+0%
+1&
+#160000
+b11 !
+b10 !
+02
+16
+1'
+05
+17
+0.
+1/
+0&
+1%
+#200000
+0"
+03
+04
+0'
+#260000
+1"
+13
+14
+1'
+#300000
+b110 !
+b100 !
+06
+18
+0'
+07
+19
+0/
+10
+0%
+1$
+#330000
+0"
+03
+04
+1'
+#390000
+1"
+13
+14
+0'
+#430000
+b1100 !
+b1000 !
+08
+1:
+1'
+09
+1;
+00
+11
+0$
+1#
+#470000
+0"
+03
+04
+0'
+#520000
+1"
+13
+14
+1'
+#550000
+b100x !
+b10xx !
+bx0xx !
+bx !
+x2
+x6
+x8
+x:
+0'
+x5
+x7
+x9
+x;
+x.
+x/
+x0
+x1
+x&
+x%
+x$
+x#
+#610000
+0"
+03
+04
+1'
+#1000000

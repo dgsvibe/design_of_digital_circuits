@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\User\Desktop\design_of_digital_circuits\pnot\simulation\qsim
+vpnot
+Z1 I<Kne`Wh0;89c=`j:cNP<j1
+Z2 V[PRco9M@[=eJ83SMbLnL^0
+Z3 dC:\Users\User\Desktop\design_of_digital_circuits\pnot\simulation\qsim
+Z4 w1537455188
+Z5 8pnot.vo
+Z6 Fpnot.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 [BQ7LRe93=RS2QfMm8;D90
+!s85 0
+Z10 !s108 1537455192.420000
+Z11 !s107 pnot.vo|
+Z12 !s90 -work|work|pnot.vo|
+!s101 -O0
+vpnot_vlg_check_tst
+!i10b 1
+!s100 XA4cB3nL<>b]@a>cMiZJg3
+IE?1];EKA8SL[58]e=4Z^f1
+VNZlZHWCn^V>5Q7PVMbW_^2
+R3
+Z13 w1537455186
+Z14 8Waveform.vwf.vt
+Z15 FWaveform.vwf.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z16 !s108 1537455192.606000
+Z17 !s107 Waveform.vwf.vt|
+Z18 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+vpnot_vlg_sample_tst
+!i10b 1
+!s100 >Dd[=Ih;ZG7FNAcz^38B=2
+ICPL2W0;iY=TciRmVLM;cc1
+Vd5ERlX@8ngT`6;PCSgo4T0
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vpnot_vlg_vec_tst
+!i10b 1
+!s100 RDL0R>M>IV>O@oUS7T_Ib0
+IJlL@>CH^]<3WbjZ]6ggLB2
+V]Cbc70KH^fj?]IaNea[nh3
+R3
+R13
+R14
+R15
+L0 152
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

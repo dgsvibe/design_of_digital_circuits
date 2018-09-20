@@ -1,0 +1,139 @@
+|exercicio02
+enter => pnand:na10.a
+enter => pnand:na20.a
+enter => pnand:na11.a
+enter => pnand:na21.a
+enter => pnand:na12.a
+enter => pnand:na22.a
+enter => pnand:na13.a
+enter => pnand:na23.a
+data[0] => pnot:nt10.a
+data[0] => pnand:na20.b
+data[1] => pnot:nt11.a
+data[1] => pnand:na21.b
+data[2] => pnot:nt12.a
+data[2] => pnand:na22.b
+data[3] => pnot:nt13.a
+data[3] => pnand:na23.b
+s[0] << pnand:na40.s
+s[1] << pnand:na41.s
+s[2] << pnand:na42.s
+s[3] << pnand:na43.s
+
+
+|exercicio02|pnot:nt10
+a => s.DATAIN
+s <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnand:na10
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnand:na20
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnand:na30
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnand:na40
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnot:nt11
+a => s.DATAIN
+s <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnand:na11
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnand:na21
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnand:na31
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnand:na41
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnot:nt12
+a => s.DATAIN
+s <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnand:na12
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnand:na22
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnand:na32
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnand:na42
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnot:nt13
+a => s.DATAIN
+s <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnand:na13
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnand:na23
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnand:na33
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio02|pnand:na43
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
