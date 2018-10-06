@@ -1,0 +1,8 @@
+|mtfffixed
+t => ~NO_FANOUT~
+ck => ~NO_FANOUT~
+q << <GND>
+pr => ~NO_FANOUT~
+clr => ~NO_FANOUT~
+
+

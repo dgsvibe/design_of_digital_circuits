@@ -16,7 +16,7 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 13.1.0 Build 162 10/23/2013 SJ Web Edition"
 
-// DATE "09/12/2018 08:49:51"
+// DATE "10/05/2018 22:43:31"
 
 // 
 // Device: Altera EP4CE115F29C7 Package FBGA780
@@ -219,9 +219,9 @@ wire \inst3~0_combout ;
 wire \inst3~q ;
 wire [2:0] \inst1|count_10Khz ;
 wire [2:0] \inst1|count_100Khz ;
+wire [2:0] \inst1|count_100hz ;
 wire [5:0] \inst1|count_1Mhz ;
 wire [2:0] \inst1|count_1Khz ;
-wire [2:0] \inst1|count_100hz ;
 
 
 // Location: IOOBUF_X115_Y19_N2

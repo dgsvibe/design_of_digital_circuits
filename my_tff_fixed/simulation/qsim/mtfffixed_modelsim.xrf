@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/User/Desktop/design_of_digital_circuits/my_tff_fixed/mtfffixed.vhd
+source_file = 1, C:/Users/User/Desktop/design_of_digital_circuits/my_tff_fixed/Waveform.vwf
+source_file = 1, C:/Users/User/Desktop/design_of_digital_circuits/my_tff_fixed/Waveform1.vwf
+source_file = 1, C:/Users/User/Desktop/design_of_digital_circuits/my_tff_fixed/Waveform2.vwf
+source_file = 1, C:/Users/User/Desktop/design_of_digital_circuits/my_tff_fixed/db/mtfffixed.cbx.xml
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = mtfffixed
+instance = comp, \q~output , q~output, mtfffixed, 1
+instance = comp, \t~input , t~input, mtfffixed, 1
+instance = comp, \ck~input , ck~input, mtfffixed, 1
+instance = comp, \pr~input , pr~input, mtfffixed, 1
+instance = comp, \clr~input , clr~input, mtfffixed, 1

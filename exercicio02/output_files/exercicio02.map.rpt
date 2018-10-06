@@ -1,5 +1,5 @@
 Analysis & Synthesis report for exercicio02
-Thu Sep 20 16:06:05 2018
+Mon Sep 24 16:43:55 2018
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -42,7 +42,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Sep 20 16:06:05 2018      ;
+; Analysis & Synthesis Status        ; Successful - Mon Sep 24 16:43:54 2018      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; exercicio02                                ;
 ; Top-level Entity Name              ; exercicio02                                ;
@@ -246,7 +246,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -256,7 +256,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Thu Sep 20 16:06:00 2018
+    Info: Processing started: Mon Sep 24 16:43:39 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off exercicio02 -c exercicio02
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file exercicio02.vhd
@@ -276,9 +276,9 @@ Info (21057): Implemented 13 device resources after synthesis - the final resour
     Info (21059): Implemented 4 output pins
     Info (21061): Implemented 4 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 524 megabytes
-    Info: Processing ended: Thu Sep 20 16:06:05 2018
-    Info: Elapsed time: 00:00:05
+    Info: Peak virtual memory: 515 megabytes
+    Info: Processing ended: Mon Sep 24 16:43:55 2018
+    Info: Elapsed time: 00:00:16
     Info: Total CPU time (on all processors): 00:00:04
 
 

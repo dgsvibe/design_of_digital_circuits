@@ -1,0 +1,98 @@
+$comment
+	File created using the following command:
+		vcd file mtfffixed.msim.vcd -direction
+$end
+$date
+	Wed Oct 03 10:47:29 2018
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module mtfffixed_vlg_vec_tst $end
+$var reg 1 ! ck $end
+$var reg 1 " clr $end
+$var reg 1 # pr $end
+$var reg 1 $ t $end
+$var wire 1 % q $end
+$var wire 1 & sampler $end
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var tri1 1 * devclrn $end
+$var tri1 1 + devpor $end
+$var tri1 1 , devoe $end
+$var wire 1 - t~input_o $end
+$var wire 1 . ck~input_o $end
+$var wire 1 / pr~input_o $end
+$var wire 1 0 clr~input_o $end
+$var wire 1 1 q~output_o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+1#
+1$
+0%
+x&
+0'
+1(
+x)
+1*
+1+
+1,
+1-
+0.
+1/
+10
+01
+$end
+#20000
+0#
+0/
+0&
+#30000
+1#
+1/
+1&
+#60000
+1!
+0"
+1.
+00
+0&
+#70000
+1"
+10
+1&
+#90000
+0!
+0.
+0&
+#120000
+0$
+0-
+1&
+#160000
+1$
+1-
+0&
+#250000
+0$
+0-
+1&
+#290000
+1!
+1.
+0&
+#330000
+0!
+0.
+1&
+#1000000
