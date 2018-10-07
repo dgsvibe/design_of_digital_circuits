@@ -1,5 +1,5 @@
 EDA Netlist Writer report for reg10b
-Thu Sep 06 15:34:22 2018
+Sat Oct 06 18:51:16 2018
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Sep 06 15:34:22 2018 ;
+; EDA Netlist Writer Status ; Successful - Sat Oct 06 18:51:16 2018 ;
 ; Revision Name             ; reg10b                                ;
 ; Top-level Entity Name     ; reg10b                                ;
 ; Family                    ; Cyclone IV E                          ;
@@ -65,13 +65,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+--------------------------------------------------------------------+
-; Simulation Generated Files                                         ;
-+--------------------------------------------------------------------+
-; Generated Files                                                    ;
-+--------------------------------------------------------------------+
-; C:/Users/User/Desktop/reg10b_structural/simulation/qsim//reg10b.vo ;
-+--------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                    ;
++-----------------------------------------------------------------------------------------------+
+; Generated Files                                                                               ;
++-----------------------------------------------------------------------------------------------+
+; C:/Users/User/Desktop/design_of_digital_circuits/reg10b_structural/simulation/qsim//reg10b.vo ;
++-----------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -93,13 +93,13 @@ Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: programming logic devices manufactured by Altera and sold by 
     Info: Altera or its authorized distributors.  Please refer to the 
     Info: applicable agreement for further details.
-    Info: Processing started: Thu Sep 06 15:34:21 2018
-Info: Command: quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/User/Desktop/reg10b_structural/simulation/qsim/ reg10b -c reg10b
-Info (204019): Generated file reg10b.vo in folder "C:/Users/User/Desktop/reg10b_structural/simulation/qsim//" for EDA simulation tool
+    Info: Processing started: Sat Oct 06 18:51:13 2018
+Info: Command: quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/User/Desktop/design_of_digital_circuits/reg10b_structural/simulation/qsim/ reg10b -c reg10b
+Info (204019): Generated file reg10b.vo in folder "C:/Users/User/Desktop/design_of_digital_circuits/reg10b_structural/simulation/qsim//" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 435 megabytes
-    Info: Processing ended: Thu Sep 06 15:34:22 2018
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Processing ended: Sat Oct 06 18:51:16 2018
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
 
 

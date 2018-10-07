@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\User\Desktop\design_of_digital_circuits\demux1x2_behavioral\simulation\qsim
+vdemux2x1
+Z1 !s100 icLEDe8W:?A;k_MR^m;9@3
+Z2 IlkHZf?Nf>Re?k=hZ46W9S3
+Z3 VhFUSCFl=9^CVLIQBZGE]b2
+Z4 dC:\Users\User\Desktop\design_of_digital_circuits\demux1x2_behavioral\simulation\qsim
+Z5 w1538844227
+Z6 8demux2x1.vo
+Z7 Fdemux2x1.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|demux2x1.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1538844229.397000
+Z12 !s107 demux2x1.vo|
+!s101 -O0
+vdemux2x1_vlg_check_tst
+!i10b 1
+Z13 !s100 Qj@A`FRRP^E]>fGP0UlJZ1
+Z14 IcMi@J;3iVMK75GckT=occ2
+Z15 VDm6^9iYFeH=404;G1:0mX0
+R4
+Z16 w1538844223
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z19 !s108 1538844229.681000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+vdemux2x1_vlg_sample_tst
+!i10b 1
+Z22 !s100 Z20[f@=Vo=F@dYh?5H:jg2
+Z23 IShNb5KLd0cZnREoO_i@450
+Z24 V3o>e^W]HRcF`fI13kcBJX3
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vdemux2x1_vlg_vec_tst
+!i10b 1
+!s100 ^6McjlC25OVP?C2aN5JcS2
+IilFm1LYfiF95hZd;4jBiI0
+Z25 V:6@`JiLABFbjQ^EdmzMgT1
+R4
+R16
+R17
+R18
+Z26 L0 503
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

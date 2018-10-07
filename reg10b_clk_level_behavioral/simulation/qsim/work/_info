@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\User\Desktop\design_of_digital_circuits\reg10b_clk_level_behavioral\simulation\qsim
+vreg10bhlb
+Z1 Idja<e@_`<14c2WYIg0GQ<3
+Z2 V@VST[H4QWY<C?HSPAg9d51
+Z3 dC:\Users\User\Desktop\design_of_digital_circuits\reg10b_clk_level_behavioral\simulation\qsim
+Z4 w1538866609
+Z5 8reg10bhlb.vo
+Z6 Freg10bhlb.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 zC`C8R0[P6j8G?La5SEYQ1
+!s85 0
+Z10 !s108 1538866612.116000
+Z11 !s107 reg10bhlb.vo|
+Z12 !s90 -work|work|reg10bhlb.vo|
+!s101 -O0
+vreg10bhlb_vlg_check_tst
+!i10b 1
+!s100 9Xn^OMLzaUD<[36VL`_QC1
+IFWS_2Lli`d20cMXm>;hFJ1
+V7FYk^Wz6<ZH`f4cPT4?K]1
+R3
+Z13 w1538866606
+Z14 8Waveform.vwf.vt
+Z15 FWaveform.vwf.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1538866612.351000
+Z17 !s107 Waveform.vwf.vt|
+Z18 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+vreg10bhlb_vlg_sample_tst
+!i10b 1
+!s100 WnFMVYaedSk=M`aUeR0cF2
+I7iF897F1m_<>DK8LOTeA93
+VH7nPcdO;n`8A3W7DPYJ5b1
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vreg10bhlb_vlg_vec_tst
+!i10b 1
+!s100 B[4Vm[Ni]`[bi6BV`1@_f1
+IU9OP4W3JnYnU3BPCMg>2c1
+VVW^0;gOi@iE]9EKZV5_o01
+R3
+R13
+R14
+R15
+L0 317
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

@@ -1,0 +1,17 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY reg10bhlb IS
+PORT(	rst, ck: IN STD_LOGIC;
+		e: IN STD_LOGIC_VECTOR(9 DOWNTO 0);
+		s: OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+END reg10bhlb;
+
+ARCHITECTURE behavioral OF reg10bhlb IS
+BEGIN
+p: PROCESS(rst, ck, e) BEGIN
+		IF (rst = '0') THEN s<="0000000000";
+		ELSIF (rst = '1' AND ck = '1') THEN s <= e;
+		END IF;
+	END PROCESS p;
+END behavioral;

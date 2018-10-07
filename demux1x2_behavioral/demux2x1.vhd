@@ -1,0 +1,14 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY demux2x1 IS
+PORT(	e: IN STD_LOGIC_VECTOR(9 DOWNTO 0);
+		sel: IN STD_LOGIC;
+		s0, s1: OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
+END demux2x1;
+
+ARCHITECTURE arch OF demux2x1 IS
+BEGIN
+s0 <= e WHEN (sel = '0');
+s1 <= e WHEN (sel = '1');
+END arch;

@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\User\Desktop\design_of_digital_circuits\double_reg_key_pushb\simulation\qsim
+vdbreg
+Z1 !s100 [5QVzPAWF;LFj9QO0Bk@;3
+Z2 I@GNEco^T=GLfN=:hQ@9dA3
+Z3 VeKa4;eXzlmjld?fgYzW^d3
+Z4 dC:\Users\User\Desktop\design_of_digital_circuits\double_reg_key_pushb\simulation\qsim
+Z5 w1538867391
+Z6 8dbreg.vo
+Z7 Fdbreg.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|dbreg.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1538867392.928000
+Z12 !s107 dbreg.vo|
+!s101 -O0
+vdbreg_vlg_check_tst
+!i10b 1
+Z13 !s100 Qhb?3QQ`A=WR?oSG2oP8U1
+Z14 IO3H=jf?_ZhzAI^SoWlPdH3
+Z15 Vb2o6?j1bjnT7ZM5>=A[2A1
+R4
+Z16 w1538867388
+Z17 8Waveform3.vwf.vt
+Z18 FWaveform3.vwf.vt
+L0 83
+R8
+r1
+!s85 0
+31
+Z19 !s108 1538867394.107000
+Z20 !s107 Waveform3.vwf.vt|
+Z21 !s90 -work|work|Waveform3.vwf.vt|
+!s101 -O0
+R10
+vdbreg_vlg_sample_tst
+!i10b 1
+Z22 !s100 5JIJCT94H^2gg@4dCUIzm1
+Z23 IeNHZEZffg9TI[0<_[CHRT0
+Z24 V0TYPoUf?XP8J;50V<e6M90
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vdbreg_vlg_vec_tst
+!i10b 1
+Z25 !s100 m1ckj86[YCi;FWdNGKS]@3
+Z26 IVO`W=m@5f7S70@@bzzbRj2
+Z27 VnMd2E2U3n7>@7N>D3;9j`2
+R4
+R16
+R17
+R18
+Z28 L0 421
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

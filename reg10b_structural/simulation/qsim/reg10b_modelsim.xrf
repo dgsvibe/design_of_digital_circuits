@@ -1,8 +1,9 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/User/Desktop/dff_behavioral/dff_behavioral.vhd
-source_file = 1, C:/Users/User/Desktop/reg10b_structural/reg10b.vhd
-source_file = 1, C:/Users/User/Desktop/reg10b_structural/Waveform.vwf
-source_file = 1, C:/Users/User/Desktop/reg10b_structural/db/reg10b.cbx.xml
+source_file = 1, C:/Users/User/Desktop/design_of_digital_circuits/dff_behavioral/dff_behavioral.vhd
+source_file = 1, C:/Users/User/Desktop/design_of_digital_circuits/reg10b_structural/reg10b.vhd
+source_file = 1, C:/Users/User/Desktop/design_of_digital_circuits/reg10b_structural/Waveform.vwf
+source_file = 1, C:/Users/User/Desktop/design_of_digital_circuits/reg10b_structural/Waveform1.vwf
+source_file = 1, C:/Users/User/Desktop/design_of_digital_circuits/reg10b_structural/db/reg10b.cbx.xml
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd

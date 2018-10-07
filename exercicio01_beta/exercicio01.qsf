@@ -52,20 +52,8 @@ set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/User/Desktop/design_of_digital_circuits/exercicio01/simulation/qsim/" -section_id eda_simulation
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/User/Desktop/design_of_digital_circuits/exercicio01_beta/simulation/qsim/" -section_id eda_simulation
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
-set_global_assignment -name VHDL_FILE ../CLK_DIV.VHD
-set_global_assignment -name VHDL_FILE ../half_adder_structural/half_adder.vhd
-set_global_assignment -name VHDL_FILE ../full_adder_structural/full_adder.vhd
-set_global_assignment -name VHDL_FILE ../sum10b/sum10b.vhd
-set_global_assignment -name VHDL_FILE ../dff_behavioral/dff_behavioral.vhd
-set_global_assignment -name VHDL_FILE ../reg10b_structural/reg10b.vhd
-set_global_assignment -name VHDL_FILE ../Mux2x1x10_structural/Mux2x1x10.vhd
-set_global_assignment -name VHDL_FILE ../Sub1_structural/Sub1_structural.vhd
-set_global_assignment -name BDF_FILE exercicio01.bdf
-set_global_assignment -name SOURCE_FILE db/exercicio01.cmp.rdb
-set_global_assignment -name VECTOR_WAVEFORM_FILE ../half_adder_structural/Waveform.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
 set_location_assignment PIN_Y23 -to c9
 set_location_assignment PIN_Y24 -to c8
@@ -81,4 +69,25 @@ set_location_assignment PIN_R24 -to rst
 set_location_assignment PIN_Y2 -to signal
 set_location_assignment PIN_AC15 -to sginal_nor
 set_location_assignment PIN_AB22 -to signal_T
+set_global_assignment -name VHDL_FILE ../reg10b_clk_level_behavioral/reg10bhlb.vhd
+set_global_assignment -name BDF_FILE ../double_reg_key_pushb/dbreg.bdf
+set_global_assignment -name VHDL_FILE ../demux1x2_behavioral/demux2x1.vhd
+set_global_assignment -name VHDL_FILE ../exercicio02_mod/e2mod.vhd
+set_global_assignment -name VHDL_FILE ../retry_mux2x1_default/mux_2x1.vhd
+set_global_assignment -name VHDL_FILE ../exercicio02/exercicio02.vhd
+set_global_assignment -name VHDL_FILE ../CLK_DIV.VHD
+set_global_assignment -name VHDL_FILE ../half_adder_structural/half_adder.vhd
+set_global_assignment -name VHDL_FILE ../full_adder_structural/full_adder.vhd
+set_global_assignment -name VHDL_FILE ../sum10b/sum10b.vhd
+set_global_assignment -name VHDL_FILE ../dff_behavioral/dff_behavioral.vhd
+set_global_assignment -name VHDL_FILE ../reg10b_structural/reg10b.vhd
+set_global_assignment -name VHDL_FILE ../Mux2x1x10_structural/Mux2x1x10.vhd
+set_global_assignment -name VHDL_FILE ../Sub1_structural/Sub1_structural.vhd
+set_global_assignment -name BDF_FILE exercicio01.bdf
+set_global_assignment -name SOURCE_FILE db/exercicio01.cmp.rdb
+set_global_assignment -name VECTOR_WAVEFORM_FILE ../half_adder_structural/Waveform.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform2.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform3.vwf

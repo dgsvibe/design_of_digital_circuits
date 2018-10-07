@@ -8,7 +8,6 @@ PORT(	rst: IN STD_LOGIC;
 		q: OUT STD_LOGIC_VECTOR(9 DOWNTO 0));
 END reg10b;
 
-			--
 			
 ARCHITECTURE comportamento OF reg10b IS
 	COMPONENT dff_behavioral

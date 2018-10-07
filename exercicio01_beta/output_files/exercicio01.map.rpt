@@ -1,5 +1,5 @@
 Analysis & Synthesis report for exercicio01
-Fri Oct 05 22:40:20 2018
+Sat Oct 06 20:29:26 2018
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -13,10 +13,12 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Port Connectivity Checks: "Sub1_structural:inst17|sum10b:sum"
- 10. Elapsed Time Per Partition
- 11. Analysis & Synthesis Messages
+  8. User-Specified and Inferred Latches
+  9. General Register Statistics
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Port Connectivity Checks: "Sub1_structural:inst17|sum10b:sum"
+ 12. Elapsed Time Per Partition
+ 13. Analysis & Synthesis Messages
 
 
 
@@ -42,16 +44,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Oct 05 22:40:20 2018      ;
+; Analysis & Synthesis Status        ; Successful - Sat Oct 06 20:29:25 2018      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; exercicio01                                ;
 ; Top-level Entity Name              ; exercicio01                                ;
 ; Family                             ; Cyclone IV E                               ;
-; Total logic elements               ; 46                                         ;
-;     Total combinational functions  ; 45                                         ;
-;     Dedicated logic registers      ; 35                                         ;
-; Total registers                    ; 35                                         ;
-; Total pins                         ; 24                                         ;
+; Total logic elements               ; 75                                         ;
+;     Total combinational functions  ; 75                                         ;
+;     Dedicated logic registers      ; 12                                         ;
+; Total registers                    ; 12                                         ;
+; Total pins                         ; 26                                         ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
 ; Embedded Multiplier 9-bit elements ; 0                                          ;
@@ -163,51 +165,54 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                           ;
-+-----------------------------------------+-----------------+------------------------------------+---------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path        ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                          ; Library ;
-+-----------------------------------------+-----------------+------------------------------------+---------------------------------------------------------------------------------------+---------+
-; ../CLK_DIV.VHD                          ; yes             ; User VHDL File                     ; C:/Users/User/Desktop/design_of_digital_circuits/CLK_DIV.VHD                          ;         ;
-; ../half_adder_structural/half_adder.vhd ; yes             ; User VHDL File                     ; C:/Users/User/Desktop/design_of_digital_circuits/half_adder_structural/half_adder.vhd ;         ;
-; ../full_adder_structural/full_adder.vhd ; yes             ; User VHDL File                     ; C:/Users/User/Desktop/design_of_digital_circuits/full_adder_structural/full_adder.vhd ;         ;
-; ../sum10b/sum10b.vhd                    ; yes             ; User VHDL File                     ; C:/Users/User/Desktop/design_of_digital_circuits/sum10b/sum10b.vhd                    ;         ;
-; ../dff_behavioral/dff_behavioral.vhd    ; yes             ; User VHDL File                     ; C:/Users/User/Desktop/design_of_digital_circuits/dff_behavioral/dff_behavioral.vhd    ;         ;
-; ../reg10b_structural/reg10b.vhd         ; yes             ; User VHDL File                     ; C:/Users/User/Desktop/design_of_digital_circuits/reg10b_structural/reg10b.vhd         ;         ;
-; ../Mux2x1x10_structural/Mux2x1x10.vhd   ; yes             ; User VHDL File                     ; C:/Users/User/Desktop/design_of_digital_circuits/Mux2x1x10_structural/Mux2x1x10.vhd   ;         ;
-; ../Sub1_structural/Sub1_structural.vhd  ; yes             ; User VHDL File                     ; C:/Users/User/Desktop/design_of_digital_circuits/Sub1_structural/Sub1_structural.vhd  ;         ;
-; exercicio01.bdf                         ; yes             ; User Block Diagram/Schematic File  ; C:/Users/User/Desktop/design_of_digital_circuits/exercicio01_beta/exercicio01.bdf     ;         ;
-+-----------------------------------------+-----------------+------------------------------------+---------------------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                     ;
++----------------------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path             ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                               ; Library ;
++----------------------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------+---------+
+; ../reg10b_clk_level_behavioral/reg10bhlb.vhd ; yes             ; User VHDL File                     ; C:/Users/User/Desktop/design_of_digital_circuits/reg10b_clk_level_behavioral/reg10bhlb.vhd ;         ;
+; ../double_reg_key_pushb/dbreg.bdf            ; yes             ; User Block Diagram/Schematic File  ; C:/Users/User/Desktop/design_of_digital_circuits/double_reg_key_pushb/dbreg.bdf            ;         ;
+; ../demux1x2_behavioral/demux2x1.vhd          ; yes             ; User VHDL File                     ; C:/Users/User/Desktop/design_of_digital_circuits/demux1x2_behavioral/demux2x1.vhd          ;         ;
+; ../exercicio02_mod/e2mod.vhd                 ; yes             ; User VHDL File                     ; C:/Users/User/Desktop/design_of_digital_circuits/exercicio02_mod/e2mod.vhd                 ;         ;
+; ../half_adder_structural/half_adder.vhd      ; yes             ; User VHDL File                     ; C:/Users/User/Desktop/design_of_digital_circuits/half_adder_structural/half_adder.vhd      ;         ;
+; ../full_adder_structural/full_adder.vhd      ; yes             ; User VHDL File                     ; C:/Users/User/Desktop/design_of_digital_circuits/full_adder_structural/full_adder.vhd      ;         ;
+; ../sum10b/sum10b.vhd                         ; yes             ; User VHDL File                     ; C:/Users/User/Desktop/design_of_digital_circuits/sum10b/sum10b.vhd                         ;         ;
+; ../dff_behavioral/dff_behavioral.vhd         ; yes             ; User VHDL File                     ; C:/Users/User/Desktop/design_of_digital_circuits/dff_behavioral/dff_behavioral.vhd         ;         ;
+; ../reg10b_structural/reg10b.vhd              ; yes             ; User VHDL File                     ; C:/Users/User/Desktop/design_of_digital_circuits/reg10b_structural/reg10b.vhd              ;         ;
+; ../Mux2x1x10_structural/Mux2x1x10.vhd        ; yes             ; User VHDL File                     ; C:/Users/User/Desktop/design_of_digital_circuits/Mux2x1x10_structural/Mux2x1x10.vhd        ;         ;
+; ../Sub1_structural/Sub1_structural.vhd       ; yes             ; User VHDL File                     ; C:/Users/User/Desktop/design_of_digital_circuits/Sub1_structural/Sub1_structural.vhd       ;         ;
+; exercicio01.bdf                              ; yes             ; User Block Diagram/Schematic File  ; C:/Users/User/Desktop/design_of_digital_circuits/exercicio01_beta/exercicio01.bdf          ;         ;
++----------------------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------+---------+
 
 
-+------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary          ;
-+---------------------------------------------+--------+
-; Resource                                    ; Usage  ;
-+---------------------------------------------+--------+
-; Estimated Total logic elements              ; 46     ;
-;                                             ;        ;
-; Total combinational functions               ; 45     ;
-; Logic element usage by number of LUT inputs ;        ;
-;     -- 4 input functions                    ; 16     ;
-;     -- 3 input functions                    ; 17     ;
-;     -- <=2 input functions                  ; 12     ;
-;                                             ;        ;
-; Logic elements by mode                      ;        ;
-;     -- normal mode                          ; 40     ;
-;     -- arithmetic mode                      ; 5      ;
-;                                             ;        ;
-; Total registers                             ; 35     ;
-;     -- Dedicated logic registers            ; 35     ;
-;     -- I/O registers                        ; 0      ;
-;                                             ;        ;
-; I/O pins                                    ; 24     ;
-; Embedded Multiplier 9-bit elements          ; 0      ;
-; Maximum fan-out node                        ; inst15 ;
-; Maximum fan-out                             ; 11     ;
-; Total fan-out                               ; 261    ;
-; Average fan-out                             ; 2.04   ;
-+---------------------------------------------+--------+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimated Total logic elements              ; 75        ;
+;                                             ;           ;
+; Total combinational functions               ; 75        ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 26        ;
+;     -- 3 input functions                    ; 43        ;
+;     -- <=2 input functions                  ; 6         ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 75        ;
+;     -- arithmetic mode                      ; 0         ;
+;                                             ;           ;
+; Total registers                             ; 12        ;
+;     -- Dedicated logic registers            ; 12        ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 26        ;
+; Embedded Multiplier 9-bit elements          ; 0         ;
+; Maximum fan-out node                        ; rst~input ;
+; Maximum fan-out                             ; 32        ;
+; Total fan-out                               ; 337       ;
+; Average fan-out                             ; 2.42      ;
++---------------------------------------------+-----------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -215,28 +220,96 @@ applicable agreement for further details.
 +-----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node  ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                            ; Library Name ;
 +-----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------+--------------+
-; |exercicio01                ; 45 (6)            ; 35 (1)       ; 0           ; 0            ; 0       ; 0         ; 24   ; 0            ; |exercicio01                                                   ; work         ;
-;    |Mux2x1x10:inst2|        ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|Mux2x1x10:inst2                                   ; work         ;
-;    |Sub1_structural:inst17| ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|Sub1_structural:inst17                            ; work         ;
-;       |sum10b:sum|          ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|Sub1_structural:inst17|sum10b:sum                 ; work         ;
+; |exercicio01                ; 75 (5)            ; 12 (2)       ; 0           ; 0            ; 0       ; 0         ; 26   ; 0            ; |exercicio01                                                   ; work         ;
+;    |Sub1_structural:inst17| ; 9 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|Sub1_structural:inst17                            ; work         ;
+;       |sum10b:sum|          ; 9 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|Sub1_structural:inst17|sum10b:sum                 ; work         ;
+;          |full_adder:fa_1|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|Sub1_structural:inst17|sum10b:sum|full_adder:fa_1 ; work         ;
 ;          |full_adder:fa_2|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|Sub1_structural:inst17|sum10b:sum|full_adder:fa_2 ; work         ;
 ;          |full_adder:fa_3|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|Sub1_structural:inst17|sum10b:sum|full_adder:fa_3 ; work         ;
+;          |full_adder:fa_4|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|Sub1_structural:inst17|sum10b:sum|full_adder:fa_4 ; work         ;
 ;          |full_adder:fa_5|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|Sub1_structural:inst17|sum10b:sum|full_adder:fa_5 ; work         ;
 ;          |full_adder:fa_6|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|Sub1_structural:inst17|sum10b:sum|full_adder:fa_6 ; work         ;
-;    |clk_div:inst1|          ; 25 (25)           ; 24 (24)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|clk_div:inst1                                     ; work         ;
-;    |reg10b:inst4|           ; 0 (0)             ; 10 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4                                      ; work         ;
-;       |dff_behavioral:ff0|  ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff0                   ; work         ;
-;       |dff_behavioral:ff1|  ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff1                   ; work         ;
-;       |dff_behavioral:ff2|  ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff2                   ; work         ;
-;       |dff_behavioral:ff3|  ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff3                   ; work         ;
-;       |dff_behavioral:ff4|  ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff4                   ; work         ;
-;       |dff_behavioral:ff5|  ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff5                   ; work         ;
-;       |dff_behavioral:ff6|  ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff6                   ; work         ;
-;       |dff_behavioral:ff7|  ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff7                   ; work         ;
-;       |dff_behavioral:ff8|  ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff8                   ; work         ;
-;       |dff_behavioral:ff9|  ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff9                   ; work         ;
+;          |full_adder:fa_7|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|Sub1_structural:inst17|sum10b:sum|full_adder:fa_7 ; work         ;
+;          |full_adder:fa_8|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|Sub1_structural:inst17|sum10b:sum|full_adder:fa_8 ; work         ;
+;          |full_adder:fa_9|  ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|Sub1_structural:inst17|sum10b:sum|full_adder:fa_9 ; work         ;
+;    |dbreg:inst1|            ; 50 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|dbreg:inst1                                       ; work         ;
+;       |demux2x1:inst2|      ; 20 (20)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|dbreg:inst1|demux2x1:inst2                        ; work         ;
+;       |e2mod:inst|          ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|dbreg:inst1|e2mod:inst                            ; work         ;
+;       |reg10bhlb:inst6|     ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|dbreg:inst1|reg10bhlb:inst6                       ; work         ;
+;       |reg10bhlb:inst7|     ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|dbreg:inst1|reg10bhlb:inst7                       ; work         ;
+;    |reg10b:inst4|           ; 11 (0)            ; 10 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4                                      ; work         ;
+;       |dff_behavioral:ff0|  ; 2 (2)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff0                   ; work         ;
+;       |dff_behavioral:ff1|  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff1                   ; work         ;
+;       |dff_behavioral:ff2|  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff2                   ; work         ;
+;       |dff_behavioral:ff3|  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff3                   ; work         ;
+;       |dff_behavioral:ff4|  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff4                   ; work         ;
+;       |dff_behavioral:ff5|  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff5                   ; work         ;
+;       |dff_behavioral:ff6|  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff6                   ; work         ;
+;       |dff_behavioral:ff7|  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff7                   ; work         ;
+;       |dff_behavioral:ff8|  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff8                   ; work         ;
+;       |dff_behavioral:ff9|  ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |exercicio01|reg10b:inst4|dff_behavioral:ff9                   ; work         ;
 +-----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++--------------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                          ;
++-----------------------------------------------------+-------------------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal           ; Free of Timing Hazards ;
++-----------------------------------------------------+-------------------------------+------------------------+
+; dbreg:inst1|reg10bhlb:inst6|s[9]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst7|s[9]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst6|s[8]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst7|s[8]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst6|s[7]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst7|s[7]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst6|s[6]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst7|s[6]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst6|s[5]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst7|s[5]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst6|s[4]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst7|s[4]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst6|s[3]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst7|s[3]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst6|s[2]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst7|s[2]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst6|s[1]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst7|s[1]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst6|s[0]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|reg10bhlb:inst7|s[0]                    ; dbreg:inst1|reg10bhlb:inst6|p ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s0[9]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s1[9]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s0[8]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s1[8]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s0[7]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s1[7]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s0[6]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s1[6]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s0[5]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s1[5]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s0[4]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s1[4]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s0[3]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s1[3]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s0[2]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s1[2]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s0[1]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s1[1]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s0[0]                    ; key                           ; yes                    ;
+; dbreg:inst1|demux2x1:inst2|s1[0]                    ; key                           ; yes                    ;
+; dbreg:inst1|e2mod:inst|s[9]                         ; push_button                   ; yes                    ;
+; dbreg:inst1|e2mod:inst|s[8]                         ; push_button                   ; yes                    ;
+; dbreg:inst1|e2mod:inst|s[7]                         ; push_button                   ; yes                    ;
+; dbreg:inst1|e2mod:inst|s[6]                         ; push_button                   ; yes                    ;
+; dbreg:inst1|e2mod:inst|s[5]                         ; push_button                   ; yes                    ;
+; dbreg:inst1|e2mod:inst|s[4]                         ; push_button                   ; yes                    ;
+; dbreg:inst1|e2mod:inst|s[3]                         ; push_button                   ; yes                    ;
+; dbreg:inst1|e2mod:inst|s[2]                         ; push_button                   ; yes                    ;
+; dbreg:inst1|e2mod:inst|s[1]                         ; push_button                   ; yes                    ;
+; dbreg:inst1|e2mod:inst|s[0]                         ; push_button                   ; yes                    ;
+; Number of user-specified and inferred latches = 50  ;                               ;                        ;
++-----------------------------------------------------+-------------------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
 +------------------------------------------------------+
@@ -244,14 +317,23 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 35    ;
-; Number of registers using Synchronous Clear  ; 6     ;
-; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 11    ;
+; Total registers                              ; 12    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 10    ;
+; Number of registers using Asynchronous Clear ; 12    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                               ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                     ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------+
+; 3:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; Yes        ; |exercicio01|reg10b:inst4|dff_behavioral:ff9|q ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------+
@@ -269,7 +351,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:06     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -279,9 +361,26 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Fri Oct 05 22:40:01 2018
+    Info: Processing started: Sat Oct 06 20:29:16 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off exercicio01 -c exercicio01
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file /users/user/desktop/design_of_digital_circuits/reg10b_clk_level_behavioral/reg10bhlb.vhd
+    Info (12022): Found design unit 1: reg10bhlb-behavioral
+    Info (12023): Found entity 1: reg10bhlb
+Info (12021): Found 1 design units, including 1 entities, in source file /users/user/desktop/design_of_digital_circuits/double_reg_key_pushb/dbreg.bdf
+    Info (12023): Found entity 1: dbreg
+Info (12021): Found 2 design units, including 1 entities, in source file /users/user/desktop/design_of_digital_circuits/demux1x2_behavioral/demux2x1.vhd
+    Info (12022): Found design unit 1: demux2x1-arch
+    Info (12023): Found entity 1: demux2x1
+Info (12021): Found 2 design units, including 1 entities, in source file /users/user/desktop/design_of_digital_circuits/exercicio02_mod/e2mod.vhd
+    Info (12022): Found design unit 1: e2mod-arch
+    Info (12023): Found entity 1: e2mod
+Info (12021): Found 2 design units, including 1 entities, in source file /users/user/desktop/design_of_digital_circuits/retry_mux2x1_default/mux_2x1.vhd
+    Info (12022): Found design unit 1: mux_2x1-behavioral
+    Info (12023): Found entity 1: mux_2x1
+Info (12021): Found 2 design units, including 1 entities, in source file /users/user/desktop/design_of_digital_circuits/exercicio02/exercicio02.vhd
+    Info (12022): Found design unit 1: exercicio02-arch
+    Info (12023): Found entity 1: exercicio02
 Info (12021): Found 2 design units, including 1 entities, in source file /users/user/desktop/design_of_digital_circuits/clk_div.vhd
     Info (12022): Found design unit 1: clk_div-Behavior
     Info (12023): Found entity 1: clk_div
@@ -311,7 +410,6 @@ Info (12021): Found 1 design units, including 1 entities, in source file exercic
 Info (12127): Elaborating entity "exercicio01" for the top level hierarchy
 Info (12128): Elaborating entity "reg10b" for hierarchy "reg10b:inst4"
 Info (12128): Elaborating entity "dff_behavioral" for hierarchy "reg10b:inst4|dff_behavioral:ff9"
-Info (12128): Elaborating entity "clk_div" for hierarchy "clk_div:inst1"
 Info (12128): Elaborating entity "Mux2x1x10" for hierarchy "Mux2x1x10:inst2"
 Warning (10036): Verilog HDL or VHDL warning at Mux2x1x10.vhd(16): object "s_e0" assigned a value but never read
 Warning (10036): Verilog HDL or VHDL warning at Mux2x1x10.vhd(16): object "s_e1" assigned a value but never read
@@ -319,17 +417,75 @@ Info (12128): Elaborating entity "Sub1_structural" for hierarchy "Sub1_structura
 Info (12128): Elaborating entity "sum10b" for hierarchy "Sub1_structural:inst17|sum10b:sum"
 Info (12128): Elaborating entity "half_adder" for hierarchy "Sub1_structural:inst17|sum10b:sum|half_adder:ha_0"
 Info (12128): Elaborating entity "full_adder" for hierarchy "Sub1_structural:inst17|sum10b:sum|full_adder:fa_1"
+Info (12128): Elaborating entity "dbreg" for hierarchy "dbreg:inst1"
+Warning (275080): Converted elements in bus name "s" using legacy naming rules. Make any assignments on the new names, not on the original names.
+    Warning (275081): Converted element name(s) from "s[9]" to "s9"
+    Warning (275081): Converted element name(s) from "s[8]" to "s8"
+    Warning (275081): Converted element name(s) from "s[7]" to "s7"
+    Warning (275081): Converted element name(s) from "s[6]" to "s6"
+    Warning (275081): Converted element name(s) from "s[5]" to "s5"
+    Warning (275081): Converted element name(s) from "s[4]" to "s4"
+    Warning (275081): Converted element name(s) from "s[3]" to "s3"
+    Warning (275081): Converted element name(s) from "s[2]" to "s2"
+    Warning (275081): Converted element name(s) from "s[1]" to "s1"
+    Warning (275081): Converted element name(s) from "s[0]" to "s0"
+    Warning (275081): Converted element name(s) from "s[9..0]" to "s9..0"
+Info (12128): Elaborating entity "reg10bhlb" for hierarchy "dbreg:inst1|reg10bhlb:inst6"
+Warning (10631): VHDL Process Statement warning at reg10bhlb.vhd(12): inferring latch(es) for signal or variable "s", which holds its previous value in one or more paths through the process
+Info (10041): Inferred latch for "s[0]" at reg10bhlb.vhd(12)
+Info (10041): Inferred latch for "s[1]" at reg10bhlb.vhd(12)
+Info (10041): Inferred latch for "s[2]" at reg10bhlb.vhd(12)
+Info (10041): Inferred latch for "s[3]" at reg10bhlb.vhd(12)
+Info (10041): Inferred latch for "s[4]" at reg10bhlb.vhd(12)
+Info (10041): Inferred latch for "s[5]" at reg10bhlb.vhd(12)
+Info (10041): Inferred latch for "s[6]" at reg10bhlb.vhd(12)
+Info (10041): Inferred latch for "s[7]" at reg10bhlb.vhd(12)
+Info (10041): Inferred latch for "s[8]" at reg10bhlb.vhd(12)
+Info (10041): Inferred latch for "s[9]" at reg10bhlb.vhd(12)
+Info (12128): Elaborating entity "demux2x1" for hierarchy "dbreg:inst1|demux2x1:inst2"
+Info (10041): Inferred latch for "s1[0]" at demux2x1.vhd(13)
+Info (10041): Inferred latch for "s1[1]" at demux2x1.vhd(13)
+Info (10041): Inferred latch for "s1[2]" at demux2x1.vhd(13)
+Info (10041): Inferred latch for "s1[3]" at demux2x1.vhd(13)
+Info (10041): Inferred latch for "s1[4]" at demux2x1.vhd(13)
+Info (10041): Inferred latch for "s1[5]" at demux2x1.vhd(13)
+Info (10041): Inferred latch for "s1[6]" at demux2x1.vhd(13)
+Info (10041): Inferred latch for "s1[7]" at demux2x1.vhd(13)
+Info (10041): Inferred latch for "s1[8]" at demux2x1.vhd(13)
+Info (10041): Inferred latch for "s1[9]" at demux2x1.vhd(13)
+Info (10041): Inferred latch for "s0[0]" at demux2x1.vhd(12)
+Info (10041): Inferred latch for "s0[1]" at demux2x1.vhd(12)
+Info (10041): Inferred latch for "s0[2]" at demux2x1.vhd(12)
+Info (10041): Inferred latch for "s0[3]" at demux2x1.vhd(12)
+Info (10041): Inferred latch for "s0[4]" at demux2x1.vhd(12)
+Info (10041): Inferred latch for "s0[5]" at demux2x1.vhd(12)
+Info (10041): Inferred latch for "s0[6]" at demux2x1.vhd(12)
+Info (10041): Inferred latch for "s0[7]" at demux2x1.vhd(12)
+Info (10041): Inferred latch for "s0[8]" at demux2x1.vhd(12)
+Info (10041): Inferred latch for "s0[9]" at demux2x1.vhd(12)
+Info (12128): Elaborating entity "e2mod" for hierarchy "dbreg:inst1|e2mod:inst"
+Warning (10631): VHDL Process Statement warning at e2mod.vhd(12): inferring latch(es) for signal or variable "s", which holds its previous value in one or more paths through the process
+Info (10041): Inferred latch for "s[0]" at e2mod.vhd(12)
+Info (10041): Inferred latch for "s[1]" at e2mod.vhd(12)
+Info (10041): Inferred latch for "s[2]" at e2mod.vhd(12)
+Info (10041): Inferred latch for "s[3]" at e2mod.vhd(12)
+Info (10041): Inferred latch for "s[4]" at e2mod.vhd(12)
+Info (10041): Inferred latch for "s[5]" at e2mod.vhd(12)
+Info (10041): Inferred latch for "s[6]" at e2mod.vhd(12)
+Info (10041): Inferred latch for "s[7]" at e2mod.vhd(12)
+Info (10041): Inferred latch for "s[8]" at e2mod.vhd(12)
+Info (10041): Inferred latch for "s[9]" at e2mod.vhd(12)
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 70 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 12 input pins
+Info (21057): Implemented 101 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 14 input pins
     Info (21059): Implemented 12 output pins
-    Info (21061): Implemented 46 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 535 megabytes
-    Info: Processing ended: Fri Oct 05 22:40:20 2018
-    Info: Elapsed time: 00:00:19
+    Info (21061): Implemented 75 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 16 warnings
+    Info: Peak virtual memory: 523 megabytes
+    Info: Processing ended: Sat Oct 06 20:29:26 2018
+    Info: Elapsed time: 00:00:10
     Info: Total CPU time (on all processors): 00:00:05
 
 

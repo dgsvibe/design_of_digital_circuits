@@ -1,0 +1,208 @@
+$comment
+	File created using the following command:
+		vcd file mux_2x1.msim.vcd -direction
+$end
+$date
+	Sat Oct 06 11:51:33 2018
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module mux_2x1_vlg_vec_tst $end
+$var reg 10 ! e0 [9:0] $end
+$var reg 10 " e1 [9:0] $end
+$var reg 1 # sel $end
+$var wire 1 $ s [9] $end
+$var wire 1 % s [8] $end
+$var wire 1 & s [7] $end
+$var wire 1 ' s [6] $end
+$var wire 1 ( s [5] $end
+$var wire 1 ) s [4] $end
+$var wire 1 * s [3] $end
+$var wire 1 + s [2] $end
+$var wire 1 , s [1] $end
+$var wire 1 - s [0] $end
+$var wire 1 . sampler $end
+$scope module i1 $end
+$var wire 1 / gnd $end
+$var wire 1 0 vcc $end
+$var wire 1 1 unknown $end
+$var tri1 1 2 devclrn $end
+$var tri1 1 3 devpor $end
+$var tri1 1 4 devoe $end
+$var wire 1 5 s[0]~output_o $end
+$var wire 1 6 s[1]~output_o $end
+$var wire 1 7 s[2]~output_o $end
+$var wire 1 8 s[3]~output_o $end
+$var wire 1 9 s[4]~output_o $end
+$var wire 1 : s[5]~output_o $end
+$var wire 1 ; s[6]~output_o $end
+$var wire 1 < s[7]~output_o $end
+$var wire 1 = s[8]~output_o $end
+$var wire 1 > s[9]~output_o $end
+$var wire 1 ? e1[0]~input_o $end
+$var wire 1 @ e0[0]~input_o $end
+$var wire 1 A sel~input_o $end
+$var wire 1 B s~0_combout $end
+$var wire 1 C e1[1]~input_o $end
+$var wire 1 D e0[1]~input_o $end
+$var wire 1 E s~1_combout $end
+$var wire 1 F e1[2]~input_o $end
+$var wire 1 G e0[2]~input_o $end
+$var wire 1 H s~2_combout $end
+$var wire 1 I e1[3]~input_o $end
+$var wire 1 J e0[3]~input_o $end
+$var wire 1 K s~3_combout $end
+$var wire 1 L e1[4]~input_o $end
+$var wire 1 M e0[4]~input_o $end
+$var wire 1 N s~4_combout $end
+$var wire 1 O e0[5]~input_o $end
+$var wire 1 P e1[5]~input_o $end
+$var wire 1 Q s~5_combout $end
+$var wire 1 R e1[6]~input_o $end
+$var wire 1 S e0[6]~input_o $end
+$var wire 1 T s~6_combout $end
+$var wire 1 U e0[7]~input_o $end
+$var wire 1 V e1[7]~input_o $end
+$var wire 1 W s~7_combout $end
+$var wire 1 X e0[8]~input_o $end
+$var wire 1 Y e1[8]~input_o $end
+$var wire 1 Z s~8_combout $end
+$var wire 1 [ e0[9]~input_o $end
+$var wire 1 \ e1[9]~input_o $end
+$var wire 1 ] s~9_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1010 !
+b1100000000 "
+0#
+0-
+1,
+0+
+1*
+0)
+0(
+0'
+0&
+0%
+0$
+x.
+0/
+10
+x1
+12
+13
+14
+05
+16
+07
+18
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+1D
+1E
+0F
+0G
+0H
+0I
+1J
+1K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+1Y
+0Z
+0[
+1\
+0]
+$end
+#110000
+1#
+1A
+0.
+1]
+1Z
+0K
+0E
+1>
+1=
+08
+06
+1$
+1%
+0*
+0,
+#150000
+0#
+0A
+1.
+0]
+0Z
+1K
+1E
+0>
+0=
+18
+16
+0$
+0%
+1*
+1,
+#230000
+1#
+1A
+0.
+1]
+1Z
+0K
+0E
+1>
+1=
+08
+06
+1$
+1%
+0*
+0,
+#530000
+0#
+0A
+1.
+0]
+0Z
+1K
+1E
+0>
+0=
+18
+16
+0$
+0%
+1*
+1,
+#1000000

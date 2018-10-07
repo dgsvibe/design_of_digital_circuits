@@ -1,0 +1,35 @@
+|reg10bhlb
+rst => p.IN0
+rst => s[0]$latch.ACLR
+rst => s[1]$latch.ACLR
+rst => s[2]$latch.ACLR
+rst => s[3]$latch.ACLR
+rst => s[4]$latch.ACLR
+rst => s[5]$latch.ACLR
+rst => s[6]$latch.ACLR
+rst => s[7]$latch.ACLR
+rst => s[8]$latch.ACLR
+rst => s[9]$latch.ACLR
+ck => p.IN1
+e[0] => s[0]$latch.DATAIN
+e[1] => s[1]$latch.DATAIN
+e[2] => s[2]$latch.DATAIN
+e[3] => s[3]$latch.DATAIN
+e[4] => s[4]$latch.DATAIN
+e[5] => s[5]$latch.DATAIN
+e[6] => s[6]$latch.DATAIN
+e[7] => s[7]$latch.DATAIN
+e[8] => s[8]$latch.DATAIN
+e[9] => s[9]$latch.DATAIN
+s[0] <= s[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= s[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+s[5] <= s[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+s[6] <= s[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+s[7] <= s[7]$latch.DB_MAX_OUTPUT_PORT_TYPE
+s[8] <= s[8]$latch.DB_MAX_OUTPUT_PORT_TYPE
+s[9] <= s[9]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

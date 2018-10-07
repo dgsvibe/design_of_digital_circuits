@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\User\Desktop\design_of_digital_circuits\retry_mux2x1_default\simulation\qsim
+vmux_2x1
+Z1 IR2^7>A^NKT]W<^d1Tgf7O2
+Z2 VaP03R9ZX8YfhIdOeOc8o?2
+Z3 dC:\Users\User\Desktop\design_of_digital_circuits\retry_mux2x1_default\simulation\qsim
+Z4 w1538837487
+Z5 8mux_2x1.vo
+Z6 Fmux_2x1.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 1>d8VZ5`MKL07;9]5MY<c2
+!s85 0
+Z10 !s108 1538837490.627000
+Z11 !s107 mux_2x1.vo|
+Z12 !s90 -work|work|mux_2x1.vo|
+!s101 -O0
+vmux_2x1_vlg_check_tst
+!i10b 1
+!s100 ?;Ac3@9[_]IeJ`Vdz7:1B1
+I[Xf0;JYOT<@XR<mSf^Lmc3
+VRJ>e1dMXXbiPMO^;UhO=@0
+R3
+Z13 w1538837483
+Z14 8Waveform.vwf.vt
+Z15 FWaveform.vwf.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1538837491.141000
+Z17 !s107 Waveform.vwf.vt|
+Z18 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R8
+vmux_2x1_vlg_sample_tst
+!i10b 1
+!s100 ZBz<L4Ob@BP?M0TYBijRY3
+ID2[gc0_`JQG[AQNVX2CX92
+V=znOiM3MD`=BmTY7=:Ql?3
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vmux_2x1_vlg_vec_tst
+!i10b 1
+!s100 =1VZ_=;Qod5C?iGVgnnHe1
+IlS92@>6Nf59:Cz7Fg@lWD2
+Vo<[^nOd>URiXaC?0RhWdh1
+R3
+R13
+R14
+R15
+L0 317
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
