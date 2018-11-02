@@ -55,16 +55,6 @@ set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/User/Desktop/design_of_digital_circuits/exercicio01_beta/simulation/qsim/" -section_id eda_simulation
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
-set_location_assignment PIN_Y23 -to c9
-set_location_assignment PIN_Y24 -to c8
-set_location_assignment PIN_AA22 -to c7
-set_location_assignment PIN_AA23 -to c6
-set_location_assignment PIN_AA24 -to c5
-set_location_assignment PIN_AB23 -to c4
-set_location_assignment PIN_AB24 -to c3
-set_location_assignment PIN_AC24 -to c2
-set_location_assignment PIN_AB25 -to c1
-set_location_assignment PIN_AC25 -to c0
 set_location_assignment PIN_R24 -to rst
 set_location_assignment PIN_Y2 -to signal
 set_location_assignment PIN_AC15 -to sginal_nor
@@ -89,5 +79,27 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE ../half_adder_structural/Wavefo
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform2.vwf
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform3.vwf
+set_location_assignment PIN_M23 -to push_button
+set_location_assignment PIN_Y23 -to data9
+set_location_assignment PIN_Y24 -to data8
+set_location_assignment PIN_AA22 -to data7
+set_location_assignment PIN_AA23 -to data6
+set_location_assignment PIN_AA24 -to data5
+set_location_assignment PIN_AB23 -to data4
+set_location_assignment PIN_AB24 -to data3
+set_location_assignment PIN_AC24 -to data2
+set_location_assignment PIN_AB25 -to data1
+set_location_assignment PIN_AC25 -to data0
+set_location_assignment PIN_AB28 -to key
+set_location_assignment PIN_H15 -to s9
+set_location_assignment PIN_G16 -to s8
+set_location_assignment PIN_G15 -to s7
+set_location_assignment PIN_F15 -to s6
+set_location_assignment PIN_H17 -to s5
+set_location_assignment PIN_J16 -to s4
+set_location_assignment PIN_H16 -to s3
+set_location_assignment PIN_J15 -to s2
+set_location_assignment PIN_G17 -to s1
+set_location_assignment PIN_J17 -to s0
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

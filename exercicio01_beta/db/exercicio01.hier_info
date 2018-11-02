@@ -4,8 +4,7 @@ rst => reg10b:inst4.rst
 rst => dbreg:inst1.rst
 rst => inst10.ACLR
 rst => inst3.ACLR
-signal => reg10b:inst4.ck
-signal => inst3.CLK
+signal => clk_div:inst7.clock_50Mhz
 push_button => dbreg:inst1.push_button
 data9 => dbreg:inst1.data9
 data8 => dbreg:inst1.data8
@@ -142,6 +141,30 @@ rst => q~reg0.ACLR
 ck => q~reg0.CLK
 d => q~reg0.DATAIN
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|exercicio01|clk_div:inst7
+clock_50Mhz => clock_1Hz~reg0.CLK
+clock_50Mhz => clock_10Hz~reg0.CLK
+clock_50Mhz => clock_100Hz~reg0.CLK
+clock_50Mhz => clock_1KHz~reg0.CLK
+clock_50Mhz => clock_10KHz~reg0.CLK
+clock_50Mhz => clock_100KHz~reg0.CLK
+clock_50Mhz => clock_1MHz~reg0.CLK
+clock_50Mhz => clock_1Mhz_int.CLK
+clock_50Mhz => count_1Mhz[0].CLK
+clock_50Mhz => count_1Mhz[1].CLK
+clock_50Mhz => count_1Mhz[2].CLK
+clock_50Mhz => count_1Mhz[3].CLK
+clock_50Mhz => count_1Mhz[4].CLK
+clock_50Mhz => count_1Mhz[5].CLK
+clock_1MHz <= clock_1MHz~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clock_100KHz <= clock_100KHz~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clock_10KHz <= clock_10KHz~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clock_1KHz <= clock_1KHz~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clock_100Hz <= clock_100Hz~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clock_10Hz <= clock_10Hz~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clock_1Hz <= clock_1Hz~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |exercicio01|Mux2x1x10:inst2
